@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            Solar @Rice
 tagline:          'Rice Solar Physics Research Group webpage'
-description:      'The Solar Physics Group, housed within the Dept. of Physics & Astronomy at Rice University, uses advanced numerical models to study plasma dynamics in the upper solar atmosphere.'
+description:      'The Solar Physics Research Group in the Dept. of Physics & Astronomy at Rice University'
 baseurl:          /
 url:              http://rice-solar-physics.github.io
 
