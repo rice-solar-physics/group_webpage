@@ -7,20 +7,20 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            Solar@Rice
+tagline:          'Rice Solar Physics Research Group webpage'
+description:      'The Solar Physics Group, housed within the Dept. of Physics & Astronomy at Rice University, uses advanced numerical models to study plasma dynamics in the upper solar atmosphere.'
 baseurl:          /
+url:              http://rice-solar-physics.github.io
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Will Barnes'
+  email:          'will.t.barnes@rice.edu'
 
 paginate:         5
 
 # Custom vars
 version:          2.1.0
 
-github:
-  repo:           https://github.com/poole/hyde
+github:           https://github.com/rice-solar-physics
+  repo:           https://github.com/rice-solar-physics/rice-solar-physics.github.io
