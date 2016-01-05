@@ -1,7 +1,7 @@
 {% for profile in site.profiles %}
   <h2> {{ profile.name }} </h2>
   <h3> {{ profile.position }} </h3>
-  {% if profile.webpage != '' %}
-    <h4><a href= {{ profile.webpage }} > {{ profile.name }} 's Personal Webpage</a></h4>
+  {% if profile.webpage != empty %}
+    <h3><a href= {{ profile.webpage }} > {{ profile.name }} 's Personal Webpage</a></h3>
   {% endif %}
 {% endfor %}
