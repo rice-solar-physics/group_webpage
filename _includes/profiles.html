@@ -1,8 +1,10 @@
 {% for profile in site.profiles %}
   <h2> {{ profile.name }} </h2>
-  <h3> {{ profile.position}} </h3>
+  <h3> {{ profile.position }} </h3>
+  <dl>
   {% for project in profile.projects %}
-    <h4> {{ project.title }} </h4>
-    <p> {{ project.description }} </p>
+    <dt> {{ project.title }} </dt>
+    <dd> {{ project.description }} </dd>
   {% endfor %}
+  </dl>
 {% endfor %}
