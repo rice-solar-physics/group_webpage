@@ -1,12 +1,6 @@
 ---
-layout: default
+layout: page
 title: People
 ---
 
-{% for profile in site.profiles %}
-  <h2> {{ profile.title }} </h2>
-  {% for project in profile.projects %}
-    <h3> {{ project.title }} </h3>
-    <p> {{ project.description }} </p>
-  {% endfor %}
-{% endfor %}
+{% include profiles.html %}
