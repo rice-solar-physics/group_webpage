@@ -13,6 +13,8 @@
   - ARTICLE
   - NOT REFEREED
   pub: SOHO 15 Coronal Heating
+  rs_author:
+  - Bradshaw, S. J.
   volume: '575'
   year: '2004'
 - author:
@@ -29,6 +31,8 @@
   - NONARTICLE
   - NOT REFEREED
   pub: AGU Fall Meeting Abstracts
+  rs_author:
+  - Bradshaw, S. J.
   volume: null
   year: '2011'
 - author:
@@ -45,6 +49,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: Astronomy and Astrophysics
+  rs_author:
+  - Bradshaw, S. J.
   volume: '483'
   year: '2008'
 - author:
@@ -60,6 +66,8 @@
   - NONARTICLE
   - NOT REFEREED
   pub: AGU Fall Meeting Abstracts
+  rs_author:
+  - Bradshaw, S. J.
   volume: null
   year: '2012'
 - author:
@@ -79,6 +87,8 @@
   - ARTICLE
   - NOT REFEREED
   pub: '4th Hinode Science Meeting: Unsolved Problems and Recent Insights'
+  rs_author:
+  - Bradshaw, S. J.
   volume: '455'
   year: '2012'
 - author:
@@ -98,6 +108,8 @@
   - ARTICLE
   - NOT REFEREED
   pub: 'The Dynamic Sun: Challenges for Theory and Observations'
+  rs_author:
+  - Bradshaw, S. J.
   volume: '600'
   year: '2005'
 - author:
@@ -116,6 +128,8 @@
   - ARTICLE
   - NOT REFEREED
   pub: SOHO 15 Coronal Heating
+  rs_author:
+  - Bradshaw, S. J.
   volume: '575'
   year: '2004'
 - author:
@@ -133,6 +147,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: The Astrophysical Journal
+  rs_author:
+  - Bradshaw, S. J.
   volume: '795'
   year: '2014'
 - author:
@@ -151,6 +167,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: Solar Physics
+  rs_author:
+  - Bradshaw, S. J.
   volume: '290'
   year: '2015'
 - author:
@@ -170,6 +188,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: Astronomy and Astrophysics
+  rs_author:
+  - Bradshaw, S. J.
   volume: '462'
   year: '2007'
 - author:
@@ -190,6 +210,8 @@
   - ARTICLE
   - NOT REFEREED
   pub: First Results From Hinode
+  rs_author:
+  - Bradshaw, S. J.
   volume: '397'
   year: '2008'
 - author:
@@ -205,6 +227,8 @@
   - NONARTICLE
   - NOT REFEREED
   pub: AGU Spring Meeting Abstracts
+  rs_author:
+  - Bradshaw, S. J.
   volume: null
   year: '2005'
 - author:
@@ -224,6 +248,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: Astronomy and Astrophysics
+  rs_author:
+  - Bradshaw, S. J.
   volume: '452'
   year: '2006'
 - author:
@@ -241,6 +267,8 @@
   - ARTICLE
   - NOT REFEREED
   pub: 'The Second Hinode Science Meeting: Beyond Discovery-Toward Understanding'
+  rs_author:
+  - Bradshaw, S. J.
   volume: '415'
   year: '2009'
 - author:
@@ -258,6 +286,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: The Astrophysical Journal
+  rs_author:
+  - Bradshaw, S. J.
   volume: '717'
   year: '2010'
 - author:
@@ -276,6 +306,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: The Astrophysical Journal
+  rs_author:
+  - Bradshaw, S. J.
   volume: '659'
   year: '2007'
 - author:
@@ -295,6 +327,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: Astronomy and Astrophysics
+  rs_author:
+  - Bradshaw, S. J.
   volume: '469'
   year: '2007'
 - author:
@@ -312,6 +346,8 @@
   - REFEREED
   - ARTICLE
   pub: Physics of Plasmas
+  rs_author:
+  - Bradshaw, S. J.
   volume: '20'
   year: '2013'
 - author:
@@ -327,6 +363,8 @@
   - REFEREED
   - ARTICLE
   pub: Philosophical Transactions of the Royal Society of London Series A
+  rs_author:
+  - Bradshaw, S. J.
   volume: '373'
   year: '2015'
 - author:
@@ -343,6 +381,8 @@
   - NONARTICLE
   - NOT REFEREED
   pub: 'American Astronomical Society Meeting Abstracts #220'
+  rs_author:
+  - Bradshaw, S. J.
   volume: '220'
   year: '2012'
 - author:
@@ -360,6 +400,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: The Astrophysical Journal Supplement Series
+  rs_author:
+  - Bradshaw, S. J.
   volume: '194'
   year: '2011'
 - author:
@@ -376,6 +418,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: Astronomy and Astrophysics
+  rs_author:
+  - Bradshaw, S. J.
   volume: '486'
   year: '2008'
 - author:
@@ -390,6 +434,8 @@
   - REFEREED
   - ARTICLE
   pub: Solar Physics
+  rs_author:
+  - Bradshaw, S. J.
   volume: '252'
   year: '2008'
 - author:
@@ -407,6 +453,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: The Astrophysical Journal
+  rs_author:
+  - Bradshaw, S. J.
   volume: '710'
   year: '2010'
 - author:
@@ -426,6 +474,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: Astronomy and Astrophysics
+  rs_author:
+  - Bradshaw, S. J.
   volume: '526'
   year: '2011'
 - author:
@@ -443,6 +493,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: The Astrophysical Journal
+  rs_author:
+  - Bradshaw, S. J.
   volume: '743'
   year: '2011'
 - author:
@@ -462,6 +514,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: The Astrophysical Journal
+  rs_author:
+  - Bradshaw, S. J.
   volume: '758'
   year: '2012'
 - author:
@@ -480,6 +534,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: The Astrophysical Journal
+  rs_author:
+  - Bradshaw, S. J.
   volume: '752'
   year: '2012'
 - author:
@@ -498,6 +554,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: The Astrophysical Journal
+  rs_author:
+  - Bradshaw, S. J.
   volume: '758'
   year: '2012'
 - author:
@@ -514,6 +572,8 @@
   - REFEREED
   - ARTICLE
   pub: Solar Physics
+  rs_author:
+  - Bradshaw, S. J.
   volume: '269'
   year: '2011'
 - author:
@@ -532,6 +592,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: Astronomy and Astrophysics
+  rs_author:
+  - Bradshaw, S. J.
   volume: '547'
   year: '2012'
 - author:
@@ -548,6 +610,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: Astronomy and Astrophysics
+  rs_author:
+  - Bradshaw, S. J.
   volume: '407'
   year: '2003'
 - author:
@@ -566,6 +630,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: Astronomy and Astrophysics
+  rs_author:
+  - Bradshaw, S. J.
   volume: '425'
   year: '2004'
 - author:
@@ -584,6 +650,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: Astronomy and Astrophysics
+  rs_author:
+  - Bradshaw, S. J.
   volume: '438'
   year: '2005'
 - author:
@@ -600,6 +668,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: Astronomy and Astrophysics
+  rs_author:
+  - Bradshaw, S. J.
   volume: '437'
   year: '2005'
 - author:
@@ -616,6 +686,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: Astronomy and Astrophysics
+  rs_author:
+  - Bradshaw, S. J.
   volume: '458'
   year: '2006'
 - author:
@@ -634,6 +706,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: The Astrophysical Journal
+  rs_author:
+  - Bradshaw, S. J.
   volume: '718'
   year: '2010'
 - author:
@@ -651,6 +725,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: The Astrophysical Journal
+  rs_author:
+  - Bradshaw, S. J.
   volume: '772'
   year: '2013'
 - author:
@@ -666,6 +742,8 @@
   - REFEREED
   - ARTICLE
   pub: Solar Physics
+  rs_author:
+  - Bradshaw, S. J.
   volume: '252'
   year: '2008'
 - author:
@@ -682,6 +760,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: Astronomy and Astrophysics
+  rs_author:
+  - Bradshaw, S. J.
   volume: '502'
   year: '2009'
 - author:
@@ -701,6 +781,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: The Astrophysical Journal
+  rs_author:
+  - Bradshaw, S. J.
   volume: '764'
   year: '2013'
 - author:
@@ -715,6 +797,8 @@
   - REFEREED
   - ARTICLE
   pub: Solar Physics
+  rs_author:
+  - Bradshaw, S. J.
   volume: '289'
   year: '2014'
 - author:
@@ -729,6 +813,8 @@
   - REFEREED
   - ARTICLE
   pub: The Astrophysical Journal
+  rs_author:
+  - Bradshaw, S. J.
   volume: '811'
   year: '2015'
 - author:
@@ -746,6 +832,8 @@
   - EPRINT_OPENACCESS
   - ARTICLE
   pub: The Astrophysical Journal
+  rs_author:
+  - Bradshaw, S. J.
   volume: '808'
   year: '2015'
 - author:
@@ -763,6 +851,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: The Astrophysical Journal
+  rs_author:
+  - Bradshaw, S. J.
   volume: '791'
   year: '2014'
 - author:
@@ -781,6 +871,8 @@
   - EPRINT_OPENACCESS
   - ARTICLE
   pub: Physics of Plasmas
+  rs_author:
+  - Bradshaw, S. J.
   volume: '22'
   year: '2015'
 - author:
@@ -797,6 +889,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: Astronomy and Astrophysics
+  rs_author:
+  - Bradshaw, S. J.
   volume: '401'
   year: '2003'
 - author:
@@ -815,6 +909,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: The Astrophysical Journal
+  rs_author:
+  - Bradshaw, S. J.
   volume: '770'
   year: '2013'
 - author:
@@ -834,6 +930,8 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: The Astrophysical Journal
+  rs_author:
+  - Bradshaw, S. J.
   volume: '778'
   year: '2013'
 - author:
@@ -851,5 +949,7 @@
   - PUB_OPENACCESS
   - ARTICLE
   pub: Astronomy and Astrophysics
+  rs_author:
+  - Bradshaw, S. J.
   volume: '446'
   year: '2006'
