@@ -42,6 +42,8 @@ flat_pubs = top_level_pubs[rsp_authors[0]]
 
 #TODO: sort out conference papers from articles, int separate files maybe
 
+#TODO: flag Rice-affiliated authors
+
 #Print to YAML file
 with open(args.pub_db,'w') as yf:
     yf.write(yaml.dump(flat_pubs,default_flow_style=False))
