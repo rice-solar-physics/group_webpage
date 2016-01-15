@@ -1,0 +1,855 @@
+- author:
+  - West, M. J.
+  - Cargill, P. J.
+  - Bradshaw, S. J.
+  bibcode: 2004ESASP.575..573W
+  name:
+  - Non-Local Heat Conduction and Ite Effect on Coronal Cooling Times
+  page:
+  - '573'
+  property:
+  - OPENACCESS
+  - ADS_OPENACCESS
+  - ARTICLE
+  - NOT REFEREED
+  pub: SOHO 15 Coronal Heating
+  volume: '575'
+  year: '2004'
+- author:
+  - Klimchuk, J. A.
+  - Tripathi, D.
+  - Bradshaw, S. J.
+  - Mason, H. E.
+  bibcode: 2011AGUFMSH43F..03K
+  name:
+  - Understanding Coronal Heating with Emission Measure Distributions
+  page:
+  - SH43F-03
+  property:
+  - NONARTICLE
+  - NOT REFEREED
+  pub: AGU Fall Meeting Abstracts
+  volume: null
+  year: '2011'
+- author:
+  - Bradshaw, S. J.
+  - "Erd\xE9lyi, R."
+  bibcode: 2008A&A...483..301B
+  name:
+  - Radiative damping of standing acoustic waves in solar coronal loops
+  page:
+  - '301'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: Astronomy and Astrophysics
+  volume: '483'
+  year: '2008'
+- author:
+  - Klimchuk, J. A.
+  - Bradshaw, S. J.
+  - Reep, J. W.
+  bibcode: 2012AGUFMSH42A..01K
+  name:
+  - Diagnosing the Time-Dependence of Active Region Core Heating Using Emission Measures
+  page:
+  - SH42A-01
+  property:
+  - NONARTICLE
+  - NOT REFEREED
+  pub: AGU Fall Meeting Abstracts
+  volume: null
+  year: '2012'
+- author:
+  - Zanna, G. D.
+  - Mitra-Kraev, U.
+  - Bradshaw, S. J.
+  - Mason, H. E.
+  - Asai, A.
+  bibcode: 2012ASPC..455..295Z
+  name:
+  - Hinode Observations and Modeling of Small Flares
+  page:
+  - '295'
+  property:
+  - OPENACCESS
+  - PUB_OPENACCESS
+  - ARTICLE
+  - NOT REFEREED
+  pub: '4th Hinode Science Meeting: Unsolved Problems and Recent Insights'
+  volume: '455'
+  year: '2012'
+- author:
+  - Taroyan, Y.
+  - Doyle, J. G.
+  - Ishak, B.
+  - Madjarska, M. S.
+  - Bradshaw, S. J.
+  bibcode: 2005ESASP.600E..25T
+  name:
+  - Study of a Transient Siphon Flow in a Cold Loop
+  page:
+  - '25'
+  property:
+  - OPENACCESS
+  - ADS_OPENACCESS
+  - ARTICLE
+  - NOT REFEREED
+  pub: 'The Dynamic Sun: Challenges for Theory and Observations'
+  volume: '600'
+  year: '2005'
+- author:
+  - Bradshaw, S. J.
+  - Del Zanna, G.
+  - Mason, H. E.
+  - Cargill, P. J.
+  bibcode: 2004ESASP.575..539B
+  name:
+  - Synthesised Radiative Emission from a Nanoflare Heated Elemental Solar Loop
+  page:
+  - '539'
+  property:
+  - OPENACCESS
+  - ADS_OPENACCESS
+  - ARTICLE
+  - NOT REFEREED
+  pub: SOHO 15 Coronal Heating
+  volume: '575'
+  year: '2004'
+- author:
+  - Bradshaw, S. J.
+  - Hartigan, P.
+  bibcode: 2014ApJ...795...79B
+  name:
+  - On Sunspot and Starspot Lifetimes
+  page:
+  - '79'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - EPRINT_OPENACCESS
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: The Astrophysical Journal
+  volume: '795'
+  year: '2014'
+- author:
+  - Price, D. J.
+  - Taroyan, Y.
+  - Innes, D. E.
+  - Bradshaw, S. J.
+  bibcode: 2015SoPh..290.1931P
+  name:
+  - Forward Modelling of a Brightening Observed by AIA
+  page:
+  - '1931'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: Solar Physics
+  volume: '290'
+  year: '2015'
+- author:
+  - Taroyan, Y.
+  - "Erd\xE9lyi, R."
+  - Doyle, J. G.
+  - Bradshaw, S. J.
+  bibcode: 2007A&A...462..331T
+  name:
+  - Analysis of power spectra of Doppler shift time series as a diagnostic tool for
+    quiescent coronal loops
+  page:
+  - '331'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: Astronomy and Astrophysics
+  volume: '462'
+  year: '2007'
+- author:
+  - "Buchlin, \xC9."
+  - Cargill, P. J.
+  - Bradshaw, S. J.
+  - Velli, M.
+  bibcode: 2008ASPC..397...83B
+  name:
+  - Spectroscopic Hinode Observables from Turbulent Heating and Cooling of Coronal
+    Loops
+  page:
+  - '83'
+  property:
+  - OPENACCESS
+  - ADS_OPENACCESS
+  - PUB_OPENACCESS
+  - ARTICLE
+  - NOT REFEREED
+  pub: First Results From Hinode
+  volume: '397'
+  year: '2008'
+- author:
+  - Bradshaw, S. J.
+  - Cargill, P.
+  bibcode: 2005AGUSMSP14A..01B
+  name:
+  - 'HYDRAD: a Hydrodynamics Code for Time-Dependent Ionisation and Forward Modelling
+    of EUV Emission from the Solar Atmosphere'
+  page:
+  - SP14A-01
+  property:
+  - NONARTICLE
+  - NOT REFEREED
+  pub: AGU Spring Meeting Abstracts
+  volume: null
+  year: '2005'
+- author:
+  - Doyle, J. G.
+  - Taroyan, Y.
+  - Ishak, B.
+  - Madjarska, M. S.
+  - Bradshaw, S. J.
+  bibcode: 2006A&A...452.1075D
+  name:
+  - Study of a transient siphon flow in a cold loop
+  page:
+  - '1075'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: Astronomy and Astrophysics
+  volume: '452'
+  year: '2006'
+- author:
+  - Del Zanna, G.
+  - Bradshaw, S. J.
+  bibcode: 2009ASPC..415..264D
+  name:
+  - 'Coronal Loops: New Insights from EIS Observations'
+  page:
+  - '264'
+  property:
+  - OPENACCESS
+  - ADS_OPENACCESS
+  - PUB_OPENACCESS
+  - ARTICLE
+  - NOT REFEREED
+  pub: 'The Second Hinode Science Meeting: Beyond Discovery-Toward Understanding'
+  volume: '415'
+  year: '2009'
+- author:
+  - Bradshaw, S. J.
+  - Cargill, P. J.
+  bibcode: 2010ApJ...717..163B
+  name:
+  - The Cooling of Coronal Plasmas. III. Enthalpy Transfer as a Mechanism for Energy
+    Loss
+  page:
+  - '163'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: The Astrophysical Journal
+  volume: '717'
+  year: '2010'
+- author:
+  - Taroyan, Y.
+  - "Erd\xE9lyi, R."
+  - Wang, T. J.
+  - Bradshaw, S. J.
+  bibcode: 2007ApJ...659L.173T
+  name:
+  - Forward Modeling of Hot Loop Oscillations Observed by SUMER and SXT
+  page:
+  - L173
+  property:
+  - OPENACCESS
+  - REFEREED
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: The Astrophysical Journal
+  volume: '659'
+  year: '2007'
+- author:
+  - Buchlin, E.
+  - Cargill, P. J.
+  - Bradshaw, S. J.
+  - Velli, M.
+  bibcode: 2007A&A...469..347B
+  name:
+  - Profiles of heating in turbulent coronal magnetic loops
+  page:
+  - '347'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - EPRINT_OPENACCESS
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: Astronomy and Astrophysics
+  volume: '469'
+  year: '2007'
+- author:
+  - McQuillen, P.
+  - Castro, J.
+  - Strickler, T.
+  - Bradshaw, S. J.
+  - Killian, T. C.
+  bibcode: 2013PhPl...20d3516M
+  name:
+  - Ion holes in the hydrodynamic regime in ultracold neutral plasmas
+  page:
+  - '043516'
+  property:
+  - REFEREED
+  - ARTICLE
+  pub: Physics of Plasmas
+  volume: '20'
+  year: '2013'
+- author:
+  - Cargill, P. J.
+  - Warren, H. P.
+  - Bradshaw, S. J.
+  bibcode: 2015RSPTA.37340260C
+  name:
+  - Modelling nanoflares in active regions and implications for coronal heating mechanisms
+  page:
+  - '20140260'
+  property:
+  - REFEREED
+  - ARTICLE
+  pub: Philosophical Transactions of the Royal Society of London Series A
+  volume: '373'
+  year: '2015'
+- author:
+  - Klimchuk, James A.
+  - Tripathi, D.
+  - Bradshaw, S. J.
+  - Mason, H. E.
+  bibcode: 2012AAS...22042302K
+  name:
+  - Understanding Coronal Heating with Emission Measure Distributions
+  page:
+  - '42302'
+  property:
+  - NONARTICLE
+  - NOT REFEREED
+  pub: 'American Astronomical Society Meeting Abstracts #220'
+  volume: '220'
+  year: '2012'
+- author:
+  - Bradshaw, S. J.
+  - Klimchuk, J. A.
+  bibcode: 2011ApJS..194...26B
+  name:
+  - What Dominates the Coronal Emission Spectrum During the Cycle of Impulsive Heating
+    and Cooling?
+  page:
+  - '26'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: The Astrophysical Journal Supplement Series
+  volume: '194'
+  year: '2011'
+- author:
+  - Bradshaw, S. J.
+  bibcode: 2008A&A...486L...5B
+  name:
+  - A reinterpretation of the energy balance in active region loops following new
+    results from Hinode EIS
+  page:
+  - L5
+  property:
+  - OPENACCESS
+  - REFEREED
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: Astronomy and Astrophysics
+  volume: '486'
+  year: '2008'
+- author:
+  - De Moortel, I.
+  - Bradshaw, S. J.
+  bibcode: 2008SoPh..252..101D
+  name:
+  - Forward Modelling of Coronal Intensity Perturbations
+  page:
+  - '101'
+  property:
+  - REFEREED
+  - ARTICLE
+  pub: Solar Physics
+  volume: '252'
+  year: '2008'
+- author:
+  - Bradshaw, S. J.
+  - Cargill, P. J.
+  bibcode: 2010ApJ...710L..39B
+  name:
+  - A New Enthalpy-Based Approach to the Transition Region in an Impulsively Heated
+    Corona
+  page:
+  - L39
+  property:
+  - OPENACCESS
+  - REFEREED
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: The Astrophysical Journal
+  volume: '710'
+  year: '2010'
+- author:
+  - Del Zanna, G.
+  - Mitra-Kraev, U.
+  - Bradshaw, S. J.
+  - Mason, H. E.
+  - Asai, A.
+  bibcode: 2011A&A...526A...1D
+  name:
+  - 'The 22 May 2007 B-class flare: new insights from Hinode observations'
+  page:
+  - A1
+  property:
+  - OPENACCESS
+  - REFEREED
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: Astronomy and Astrophysics
+  volume: '526'
+  year: '2011'
+- author:
+  - Bradshaw, S. J.
+  - Aulanier, G.
+  - Del Zanna, G.
+  bibcode: 2011ApJ...743...66B
+  name:
+  - A Reconnection-driven Rarefaction Wave Model for Coronal Outflows
+  page:
+  - '66'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: The Astrophysical Journal
+  volume: '743'
+  year: '2011'
+- author:
+  - Bradshaw, S. J.
+  - Klimchuk, J. A.
+  - Reep, J. W.
+  bibcode: 2012ApJ...758...53B
+  name:
+  - Diagnosing the Time-dependence of Active Region Core Heating from the Emission
+    Measure. I. Low-frequency Nanoflares
+  page:
+  - '53'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - EPRINT_OPENACCESS
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: The Astrophysical Journal
+  volume: '758'
+  year: '2012'
+- author:
+  - Cargill, P. J.
+  - Bradshaw, S. J.
+  - Klimchuk, J. A.
+  bibcode: 2012ApJ...752..161C
+  name:
+  - Enthalpy-based Thermal Evolution of Loops. II. Improvements to the Model
+  page:
+  - '161'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - EPRINT_OPENACCESS
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: The Astrophysical Journal
+  volume: '752'
+  year: '2012'
+- author:
+  - Cargill, P. J.
+  - Bradshaw, S. J.
+  - Klimchuk, J. A.
+  bibcode: 2012ApJ...758....5C
+  name:
+  - Enthalpy-based Thermal Evolution of Loops. III. Comparison of Zero-dimensional
+    Models
+  page:
+  - '5'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: The Astrophysical Journal
+  volume: '758'
+  year: '2012'
+- author:
+  - Taroyan, Y.
+  - "Erd\xE9lyi, R."
+  - Bradshaw, S. J.
+  bibcode: 2011SoPh..269..295T
+  name:
+  - 'Observational Signatures of Impulsively Heated Coronal Loops: Power-Law Distribution
+    of Energies'
+  page:
+  - '295'
+  property:
+  - REFEREED
+  - ARTICLE
+  pub: Solar Physics
+  volume: '269'
+  year: '2011'
+- author:
+  - Petkaki, P.
+  - Del Zanna, G.
+  - Mason, H. E.
+  - Bradshaw, S. J.
+  bibcode: 2012A&A...547A..25P
+  name:
+  - SDO AIA and EVE observations and modelling of solar flare loops
+  page:
+  - A25
+  property:
+  - OPENACCESS
+  - REFEREED
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: Astronomy and Astrophysics
+  volume: '547'
+  year: '2012'
+- author:
+  - Bradshaw, S. J.
+  - Mason, H. E.
+  bibcode: 2003A&A...407.1127B
+  name:
+  - The radiative response of solar loop plasma subject to transient heating
+  page:
+  - '1127'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: Astronomy and Astrophysics
+  volume: '407'
+  year: '2003'
+- author:
+  - Bradshaw, S. J.
+  - Del Zanna, G.
+  - Mason, H. E.
+  bibcode: 2004A&A...425..287B
+  name:
+  - On the consequences of a non-equilibrium ionisation balance for compact flare
+    emission and dynamics
+  page:
+  - '287'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: Astronomy and Astrophysics
+  volume: '425'
+  year: '2004'
+- author:
+  - Taroyan, Y.
+  - "Erd\xE9lyi, R."
+  - Doyle, J. G.
+  - Bradshaw, S. J.
+  bibcode: 2005A&A...438..713T
+  name:
+  - Footpoint excitation of standing acoustic waves in coronal loops
+  page:
+  - '713'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: Astronomy and Astrophysics
+  volume: '438'
+  year: '2005'
+- author:
+  - Bradshaw, S. J.
+  - Cargill, P. J.
+  bibcode: 2005A&A...437..311B
+  name:
+  - The cooling of coronal plasmas.  II. Properties of the radiative phase
+  page:
+  - '311'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: Astronomy and Astrophysics
+  volume: '437'
+  year: '2005'
+- author:
+  - Bradshaw, S. J.
+  - Cargill, P. J.
+  bibcode: 2006A&A...458..987B
+  name:
+  - Explosive heating of low-density coronal plasma
+  page:
+  - '987'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: Astronomy and Astrophysics
+  volume: '458'
+  year: '2006'
+- author:
+  - Longcope, D. W.
+  - Bradshaw, S. J.
+  bibcode: 2010ApJ...718.1491L
+  name:
+  - 'Slow Shocks and Conduction Fronts from Petschek Reconnection of Skewed Magnetic
+    Fields: Two-fluid Effects'
+  page:
+  - '1491'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - EPRINT_OPENACCESS
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: The Astrophysical Journal
+  volume: '718'
+  year: '2010'
+- author:
+  - Cargill, P. J.
+  - Bradshaw, S. J.
+  bibcode: 2013ApJ...772...40C
+  name:
+  - The Cooling of Coronal Plasmas. IV. Catastrophic Cooling of Loops
+  page:
+  - '40'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - EPRINT_OPENACCESS
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: The Astrophysical Journal
+  volume: '772'
+  year: '2013'
+- author:
+  - West, M. J.
+  - Bradshaw, S. J.
+  - Cargill, P. J.
+  bibcode: 2008SoPh..252...89W
+  name:
+  - On the Lifetime of Hot Coronal Plasmas Arising from Nanoflares
+  page:
+  - '89'
+  property:
+  - REFEREED
+  - ARTICLE
+  pub: Solar Physics
+  volume: '252'
+  year: '2008'
+- author:
+  - Bradshaw, S. J.
+  bibcode: 2009A&A...502..409B
+  name:
+  - A numerical tool for the calculation of non-equilibrium ionisation states in the
+    solar corona and other astrophysical plasma environments
+  page:
+  - '409'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: Astronomy and Astrophysics
+  volume: '502'
+  year: '2009'
+- author:
+  - Reep, J. W.
+  - Bradshaw, S. J.
+  - Klimchuk, J. A.
+  bibcode: 2013ApJ...764..193R
+  name:
+  - Diagnosing the Time Dependence of Active Region Core Heating from the Emission
+    Measure. II. Nanoflare Trains
+  page:
+  - '193'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - EPRINT_OPENACCESS
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: The Astrophysical Journal
+  volume: '764'
+  year: '2013'
+- author:
+  - Taroyan, Y.
+  - Bradshaw, S. J.
+  bibcode: 2014SoPh..289.1959T
+  name:
+  - Forward-Modeling of Doppler Shifts in EUV Spectral Lines
+  page:
+  - '1959'
+  property:
+  - REFEREED
+  - ARTICLE
+  pub: Solar Physics
+  volume: '289'
+  year: '2014'
+- author:
+  - Bradshaw, S. J.
+  - Klimchuk, J. A.
+  bibcode: 2015ApJ...811..129B
+  name:
+  - Chromospheric Nanoflares as a Source of Coronal Plasma. II. Repeating Nanoflares
+  page:
+  - '129'
+  property:
+  - REFEREED
+  - ARTICLE
+  pub: The Astrophysical Journal
+  volume: '811'
+  year: '2015'
+- author:
+  - Reep, J. W.
+  - Bradshaw, S. J.
+  - Alexander, D.
+  bibcode: 2015ApJ...808..177R
+  name:
+  - Optimal Electron Energies for Driving Chromospheric Evaporation in Solar Flares
+  page:
+  - '177'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - EPRINT_OPENACCESS
+  - ARTICLE
+  pub: The Astrophysical Journal
+  volume: '808'
+  year: '2015'
+- author:
+  - Klimchuk, J. A.
+  - Bradshaw, S. J.
+  bibcode: 2014ApJ...791...60K
+  name:
+  - Are Chromospheric Nanoflares a Primary Source of Coronal Plasma?
+  page:
+  - '60'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - EPRINT_OPENACCESS
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: The Astrophysical Journal
+  volume: '791'
+  year: '2014'
+- author:
+  - McQuillen, P.
+  - Castro, J.
+  - Bradshaw, S. J.
+  - Killian, T. C.
+  bibcode: 2015PhPl...22d3514M
+  name:
+  - Emergence of kinetic behavior in streaming ultracold neutral plasmas
+  page:
+  - '043514'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - EPRINT_OPENACCESS
+  - ARTICLE
+  pub: Physics of Plasmas
+  volume: '22'
+  year: '2015'
+- author:
+  - Bradshaw, S. J.
+  - Mason, H. E.
+  bibcode: 2003A&A...401..699B
+  name:
+  - A self-consistent treatment of radiation   in coronal loop modelling
+  page:
+  - '699'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: Astronomy and Astrophysics
+  volume: '401'
+  year: '2003'
+- author:
+  - Bradshaw, S. J.
+  - Cargill, P. J.
+  bibcode: 2013ApJ...770...12B
+  name:
+  - The Influence of Numerical Resolution on Coronal Density in Hydrodynamic Models
+    of Impulsive Heating
+  page:
+  - '12'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - EPRINT_OPENACCESS
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: The Astrophysical Journal
+  volume: '770'
+  year: '2013'
+- author:
+  - Reep, J. W.
+  - Bradshaw, S. J.
+  - McAteer, R. T. J.
+  bibcode: 2013ApJ...778...76R
+  name:
+  - On the Sensitivity of the GOES Flare Classification to Properties of the Electron
+    Beam in the Thick-target Model
+  page:
+  - '76'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - EPRINT_OPENACCESS
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: The Astrophysical Journal
+  volume: '778'
+  year: '2013'
+- author:
+  - Taroyan, Y.
+  - Bradshaw, S. J.
+  - Doyle, J. G.
+  bibcode: 2006A&A...446..315T
+  name:
+  - 'Nanoflare heating of coronal loops: hydrodynamic response and observational consequences'
+  page:
+  - '315'
+  property:
+  - OPENACCESS
+  - REFEREED
+  - PUB_OPENACCESS
+  - ARTICLE
+  pub: Astronomy and Astrophysics
+  volume: '446'
+  year: '2006'

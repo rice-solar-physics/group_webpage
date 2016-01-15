@@ -1,0 +1,10 @@
+<ol>
+  {% for pub in site.data.publications %}
+  <li>
+    {% for au in pub.author %}
+      {au},
+    {% endfor %}
+    {pub.name}, {pub.year}
+  </li>
+  {% endfor %}
+</ol>
