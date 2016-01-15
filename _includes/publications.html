@@ -4,7 +4,7 @@
     {% for au in paper.author %}
       {{ au }},
     {% endfor %}
-    {{ paper.name }}, {{ paper.year }}
+    {{ paper.name }}, {{ paper.year }}, <a href="http://adsabs.harvard.edu/abs/{{ paper.bibcode }}">{{ paper.bibcode }}</a>
   </li>
   {% endfor %}
 </ol>
