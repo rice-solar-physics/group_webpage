@@ -20,10 +20,6 @@ author:
 paginate:         5
 
 # Collections
-collections:
-  profiles:
-    output: true
-    permalink: /profiles/:path/
 
 # Custom vars
 version:          2.1.0

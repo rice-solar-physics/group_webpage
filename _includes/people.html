@@ -1,0 +1,9 @@
+<ul>
+{% for person in site.data.people %}
+  <h2> {{ person.name }} </h2>
+  <li> {{ person.position }} </li>
+  {% if person.webpage != null %}
+    <li><a href="{{ person.webpage }}" >Personal Webpage</a></li>
+  {% endif %}
+{% endfor %}
+</ul>

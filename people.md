@@ -3,4 +3,4 @@ layout: page
 title: People
 ---
 
-{% include profiles.html %}
+{% include people.html %}
