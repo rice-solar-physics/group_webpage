@@ -1,3 +1,8 @@
+#name: fetch-rice-solar-pubs.py
+#author: Will Barnes
+#date: 15 January 2016
+#description: Query ADS database for publications from Rice Solar Physics research group
+
 #Import needed packages
 import argparse
 import sys
@@ -32,9 +37,14 @@ for a in rsp_authors:
     tmp = list(ads.SearchQuery(author=a))
     top_level_pubs[a] = []
     for t in tmp:
-        top_level_pubs[a].append({'name':t.title,'author':t.author,'year':t.year,
-        'pub':t.pub,'bibcode':t.bibcode,'property':t.property,'volume':t.volume,
-        'page':t.page})
+        #Flag Rice authors
+        tmp_rsp_auth = []
+        for ta in t.author:
+            if ta in rsp_authors:
+                tmp_rsp_auth.append(ta)
+        top_level_pubs[a].append({'name':t.title,'author':t.author,'rs_author':tmp_rsp_auth,
+        'year':t.year,'pub':t.pub,'bibcode':t.bibcode,'property':t.property,
+        'volume':t.volume,'page':t.page})
 
 #Flatten database (one list of dictionaries) and TODO:remove duplicates
 flat_pubs = top_level_pubs[rsp_authors[0]]

@@ -2,9 +2,13 @@
   {% for paper in site.data.publications %}
   <li>
     {% for au in paper.author %}
-      {{ au }},
+      {% if paper.rs_author contains au %}
+        <strong>{{ au }}</strong>,
+      {% else %}
+        {{ au }}
+      {% endif %}
     {% endfor %}
-    <i>{{ paper.name }}</i>, {{ paper.year }}, <a href="http://adsabs.harvard.edu/abs/{{ paper.bibcode }}">{{ paper.bibcode }}</a>
+    <em>{{ paper.name }}</em>, {{ paper.year }}, <a href="http://adsabs.harvard.edu/abs/{{ paper.bibcode }}">{{ paper.bibcode }}</a>
   </li>
   {% endfor %}
 </ol>
