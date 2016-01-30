@@ -7,7 +7,7 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Solar@Rice
+title:            Solar @Rice
 tagline:          'Rice Solar Physics Research Group webpage'
 description:      'The Solar Physics Research Group in the Dept. of Physics & Astronomy at Rice University'
 baseurl:          /
