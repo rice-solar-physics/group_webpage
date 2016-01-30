@@ -13,13 +13,14 @@ import ads
 
 class FetchPubs(object):
     """Class for querying ADS for publication information, compiling to YAML"""
-    
-    def __init__(self, pub_db, ads_key=os.path.join(os.environ['HOME'],'.ads/dev_key'),  people=[], people_db=''):
+
+    def __init__(self, pub_db, ads_key=os.path.join(os.environ['HOME'],'.ads/dev_key'),  people=[], people_db='',max_pub_count_debug=1e+10):
         """Constructor for FetchPubs class"""
         self.journal_name_keywords = ['Astronomy', 'Astrophysics', 'Astrophysical', 'Astronomical', 'Solar', 'Royal Society','Plasmas']
         self._config_logger()
         self._set_key(ads_key)
         self.pub_db = pub_db
+        self.max_pub_count_debug = max_pub_count_debug
         if people:
             self.people = people
         else:
@@ -68,17 +69,23 @@ class FetchPubs(object):
             request_count += 1
             self.logger.debug("Request # %d"%request_count)
             self.top_level_pubs[a] = []
+            pub_count = 0
             for t in tmp:
                 if not self.filter_pubs(t):
                     self.logger.debug("Skipping %s, (%s)"%(t.title,t.year))
-                    pass
+                    continue
                 #Flag Rice authors
                 tmp_rsp_auth = []
                 for ta in t.author:
                     if ta in self.people:
                         tmp_rsp_auth.append(ta)
                 self.top_level_pubs[a].append({'title':t.title, 'author':t.author, 'rs_author':tmp_rsp_auth, 'year':t.year, 'pub':t.pub, 'bibcode':t.bibcode, 'property':t.property, 'volume':t.volume, 'page':t.page})
-                self.logger.debug("Found paper: %s"%t.title)
+                self.logger.debug("Storing paper: %s"%t.title)
+                #pub counts for debugging
+                pub_count += 1
+                if pub_count >= self.max_pub_count_debug:
+                    self.logger.debug("Breaking at pub count %d for debugging."%self.max_pub_count_debug)
+                    break
 
 
     def flatten_and_sort(self):
@@ -88,8 +95,9 @@ class FetchPubs(object):
         for a in self.people:
             flat_pubs += self.top_level_pubs[a]
         #Remove duplicates
-        unique_pubs_set = set(frozenset(fp.items()) for fp in flat_pubs)
-        flat_pubs = [dict(ups) for ups in unique_pubs_set]
+        #unique_pubs_set = set(tuple(fp.items()) for fp in flat_pubs)
+        #flat_pubs = [dict(ups) for ups in unique_pubs_set]
+        #TODO: can't use set on nested dict; find a better way to remove duplicates
         #Sort by year (newest on top)
         self.flat_pubs = sorted(flat_pubs, key=lambda k: k['year'], reverse=True)
 
@@ -142,7 +150,7 @@ def main():
     parser.add_argument("-p","--people_db",help="YAML file containing author info")
     args = parser.parse_args()
     #Instantiate publication fetcher class
-    pub_finder = FetchPubs(args.pub_db, people_db=args.people_db, ads_key=args.ads_key)
+    pub_finder = FetchPubs(args.pub_db, people=['Bradshaw, S. J.','Bradshaw, Stephen'], people_db=args.people_db, ads_key=args.ads_key)
     #Query database
     pub_finder.query_db()
     #Flatten and sort publications

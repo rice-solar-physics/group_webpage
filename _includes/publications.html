@@ -8,7 +8,7 @@
         {{ au }}
       {% endif %}
     {% endfor %}
-    <em>{{ paper.name }}</em>, {{ paper.year }}, <a href="http://adsabs.harvard.edu/abs/{{ paper.bibcode }}">{{ paper.bibcode }}</a>
+    <em>{{ paper.title }}</em>, {{ paper.year }}, <a href="http://adsabs.harvard.edu/abs/{{ paper.bibcode }}">{{ paper.bibcode }}</a>
   </li>
   {% endfor %}
 </ol>
