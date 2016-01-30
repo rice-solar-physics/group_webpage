@@ -1,10 +1,18 @@
 - name: "David Alexander"
+  pub_name:
+    - "Alexander, D."
+    - "Alexander, David"
   position: "Professor of Physics & Astronomy"
   webpage: "http://report.rice.edu/sir/faculty.detail?p=3A13D9FC465BDF33"
 - name: "Stephen Bradshaw"
+  pub_name:
+    - "Bradshaw, S. J."
+    - "Bradshaw, Stephen"
   position: "Assistant Professor"
   webpage: "http://report.rice.edu/sir/faculty.detail?p=0EC4BA03C8DC0DCB3AB472F0CD2BAB22"
 - name: "Will Barnes"
+  pub_name:
+    - "Barnes, W. T."
   position: "Graduate Student"
   webpage: "http://spacibm.rice.edu/~wtb2/homepage/"
 - name: "Bahauddin Omar"
