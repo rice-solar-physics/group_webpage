@@ -20,6 +20,10 @@ author:
 paginate:         5
 
 # Collections
+collections:
+  research:
+    output: true
+    permalink: /research/:path/
 
 # Custom vars
 version:          2.1.0
