@@ -105,7 +105,7 @@ class FetchPubs(object):
     def filter_pubs(self,paper):
         """Filter publication list"""
         #leave out older papers
-        if int(paper.year) < 1995:
+        if int(paper.year) < 2010:
             check_flag = False
             return False
 
