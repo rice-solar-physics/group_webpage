@@ -5,7 +5,7 @@
       {% if paper.rs_author contains au %}
         <strong>{{ au }}</strong>,
       {% else %}
-        {{ au }}
+        {{ au }},
       {% endif %}
     {% endfor %}
     <em>{{ paper.title }}</em>, {{ paper.year }}, <a href="http://adsabs.harvard.edu/abs/{{ paper.bibcode }}">{{ paper.bibcode }}</a>
