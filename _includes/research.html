@@ -1,7 +1,11 @@
+<div class="post">
 {% for res in site.research %}
-  <div class="post">
     <h2 class="post-title">{{ res.title }}</h2>
-    <img src="{{ site.baseurl }}{{ res.image }}" style="float:left;" width="33%"/>
-    <p style="float:right;" width="67%">{{ res.content }}</p>
-  </div>
+    <div class="col-md-4">
+      <img src="{{ site.baseurl }}{{ res.image }}"/>
+    </div>
+    <div class="col-md-8">
+      <p>{{ res.content }}</p>
+    </div>
 {% endfor %}
+</div>
