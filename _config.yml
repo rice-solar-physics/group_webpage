@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            Solar @Rice
 tagline:          'Rice Solar Physics Research Group webpage'
-description:      'Solar Physics Research at Rice University'
+description:      'Solar Physics Research Group at Rice University'
 baseurl:          /
 url:              http://rice-solar-physics.github.io
 
@@ -23,7 +23,7 @@ paginate:         5
 collections:
   research:
     output: true
-    permalink: /research/:path/
+    #permalink: /research/:path/
 
 # Custom vars
 version:          2.1.0
