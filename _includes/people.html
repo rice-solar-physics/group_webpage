@@ -12,8 +12,8 @@
 <ul>
   {% for person in site.data.alumni %}
     <h3>{{ person.name }}</h3>
-    <li>{{ person.degree }}, {{ person.thesis }} ({{ person.year }})</li>
-    <li>{{ person.postion }}<br>
-        {{person.institution}}, {{person.location}}</li>
+    <li>{{ person.degree }} ({{ person.year }}), <em>{{ person.thesis }}</em></li>
+    <li>{{ person.position }}</li>
+    <li>{{ person.institution }}, {{ person.location }}</li>
   {% endfor %}
 </ul>
