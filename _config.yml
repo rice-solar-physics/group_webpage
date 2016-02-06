@@ -17,7 +17,11 @@ author:
   email:          'will.t.barnes@rice.edu'
 
 # Gems
-gems: [jekyll-paginate]
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+  - pygments.rb
+
 paginate:         5
 paginate_path: "page:num"
 
