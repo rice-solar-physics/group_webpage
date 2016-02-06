@@ -8,8 +8,9 @@ title: Research
 {% for res in site.research %}
     <h2 class="post-title">{{ res.title }}</h2>
     <div class="col-md-4">
-      <img src="{{ site.baseurl }}{{ res.image }}"/>
-      <img src="{{ site.baseurl }}{{ res.image }}"/>
+      {% for image in res.images %}
+        <img src="{{ site.baseurl }}{{ image }}"/>
+      {% endfor %}
     </div>
     <div class="col-md-8">
       {{ res.content }}
