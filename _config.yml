@@ -27,7 +27,7 @@ gems:
 collections:
   research:
     output: true
-    #permalink: /research/:path/
+    permalink: /research/:path/
 
 # Custom vars
 version:          2.1.0
