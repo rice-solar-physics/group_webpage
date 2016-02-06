@@ -3,8 +3,8 @@ layout: page
 title: Research
 ---
 
-<!--{% include research.html %}-->
-<div class="post">
+{% include research.html %}
+<!-- <div class="post">
 {% for res in site.research %}
     <h2 class="post-title">{{ res.title }}</h2>
     <div class="col-md-4">
@@ -14,4 +14,4 @@ title: Research
       {{ res.content }}
     </div>
 {% endfor %}
-</div>
+</div> -->

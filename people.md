@@ -3,8 +3,8 @@ layout: page
 title: People
 ---
 
-<!-- {% include people.html %} -->
-<h2>Current Members</h2>
+{% include people.html %}
+<!-- <h2>Current Members</h2>
 <ul>
   {% for person in site.data.people %}
     <h3>{{ person.name }}</h3>
@@ -22,4 +22,4 @@ title: People
     <li>{{ person.position }}</li>
     <li>{{ person.institution }}, {{ person.location }}</li>
   {% endfor %}
-</ul>
+</ul> -->
