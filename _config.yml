@@ -19,6 +19,10 @@ author:
 
 paginate:         5
 
+# Gems
+gems:
+  - jekyll-paginate
+
 # Collections
 collections:
   research:
