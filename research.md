@@ -3,7 +3,6 @@ layout: page
 title: Research
 ---
 
-<!--- {% include research.html %} --->
 <div class="post">
 {% for res in site.research %}
     <h2 class="post-title">{{ res.title }}</h2>

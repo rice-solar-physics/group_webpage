@@ -3,7 +3,6 @@ layout: page
 title: Publications
 ---
 
-<!--- {% include publications.html %} --->
 <ol>
   {% for paper in site.data.publications %}
   <li>
