@@ -4,7 +4,6 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
 title:            Solar @Rice
@@ -17,11 +16,10 @@ author:
   name:           'Will Barnes'
   email:          'will.t.barnes@rice.edu'
 
-paginate:         5
-
 # Gems
-gems:
-  - jekyll-paginate
+gems: [jekyll-paginate]
+paginate:         5
+paginate_path: "page:num"
 
 # Collections
 collections:
