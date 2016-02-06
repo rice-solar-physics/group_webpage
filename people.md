@@ -3,7 +3,6 @@ layout: page
 title: People
 ---
 
-<!--- {% include people.html %} --->
 <h2>Current Members</h2>
 <ul>
   {% for person in site.data.people %}
