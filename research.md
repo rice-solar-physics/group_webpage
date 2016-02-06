@@ -7,7 +7,7 @@ title: Research
 {% for res in site.research %}
     <h2 class="post-title">{{ res.title }}</h2>
     <div class="col-md-4">
-      <img src="{{ site.baseurl }}{{ res.image }}" style="border:1px" />
+      <img src="{{ site.baseurl }}{{ res.image }}" style="border:1px border-color:#000000" />
     </div>
     <div class="col-md-8">
       {{ res.content }}
