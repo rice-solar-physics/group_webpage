@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /Software
 title: Software
 ---
 

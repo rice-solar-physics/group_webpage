@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /Resources
 title: Resources
 ---
 

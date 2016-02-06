@@ -16,6 +16,8 @@ author:
   name:           'Will Barnes'
   email:          'will.t.barnes@rice.edu'
 
+include: ['_pages']
+
 # Gems
 gems:
   - jekyll-paginate
