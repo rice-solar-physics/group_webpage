@@ -2,7 +2,7 @@
   link: "http://www.chiantidatabase.org/"
   description: "an atomic database for spectroscopic diagnostics of astrophysical plasmas"
 - name: "ChiantiPy"
-  link: "http://chiantipy.sourceforge.net//index.html"
+  link: "http://chiantipy.sourceforge.net"
   description: "Python library for interacting with CHIANTI"
 - name: "GitHub"
   link: "https://github.com/rice-solar-physics"
