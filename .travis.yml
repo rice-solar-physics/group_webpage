@@ -8,6 +8,7 @@ branches:
   only:
   - sources
 install:
+- bundle install
 - sudo pip install ads
 before_script:
 - git config user.email "Travis CI"
