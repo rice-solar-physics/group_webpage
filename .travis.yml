@@ -1,5 +1,26 @@
 language: ruby
 rvm:
-  - 2.1
+- 2.1
+python:
+- 3.4
+sudo: required
+branches:
+  only:
+  - master
+install:
+- pip install ads
+#before_script:
+#- git config user.email "Travis CI"
+#- git config user.name "Travis CI"
+#- git checkout master
+- python scripts/fetch_pubs.py -k ${ADS_KEY} -d _data/publications.yml
 script:
-  - bundle exec jekyll build
+- bundle exec jekyll build
+#after_script:
+#- git add _data/publications.yml
+#- git commit -m "updating publication list"
+#- git push
+env:
+  global:
+  - secure: NNmJFRLjiarSUC0GgEG9p9XB+SMExqUUmwf7aTkuuUNVootymul6+EW1hWHkm1/7JN9pMb+pvxnTH2g7jT/tab8kxed6ZNtnLgq0mdhG5Nz0olWZputxaNV+v7oYrcSdUnOS4XPkcrcduOVsQF0y4zVG63IN3Qd/8jtM919qoNrqozqlFtvyNYpcBU+PdIbEEHhJocxqi4JkKxv4/V/8CI5y05uZfNOFHvzYpbryeu1LbxerWYB/KIWHI6X3GlDDcKYNI5H1xIaGJZjAQANtYObPuhlg3PedY/SSQyMH30awrjUtqesCT1fDgx0vZn44CqhhAM6wcY5y9S7ZAF3k6V3KO9XpjUcsUaflBCoCQG53/eve/HQokc+y3kUEdcUbByjWRVFO42xGtms+AqszI/Ug8/HDevvYYkqxT+4ANcV/hCqHGV8ZrMGZJhTz348eRRiU+tuF8fVwFlOL07Qg5QahfqrW+nLWz87Mt8Evu4fkYzJy0aebSycEGo6/QvTANxr0kfIV/4bvtAcITkO58jY59G5+Sp2gAXRSmiMtdHrFUOdT3svrm/e1p3KWg8yrp6KWQta/cv7MmoS9zLSsepX8OxAYa5a2Obezy5oOph90Ih+TdIodtHMZb8IRsQ27tDboKvMwdexPPUww0wOEwrsay9bm3Ha+BdMbHlNrh44=
+  - secure: GXpAfCc5cOYnk/QIJQ8FbLuaNSV1dAaUCIXrVN2HpnX8kJK7kgCwTiC6H9077JhqiLs7ToPic7NSMcgHIvJqTL/Avh53xI/bIVxzEsM2sOVXhA9XXJazfgStQqwdpaEF2v8XHiuiqarufVgVyB4CpUArihHhZsFaZRzpLZEq2oYifPmv0UhUGLf9lHNz7AmDQw7600FopI8egR7pPejJo69jMyfm9WyBGNs3r/4cSIgK01Q2OurXP/5tJX7+lP8/4Lxgum9nLAPzar2q1icM4qTZ4s7XC0XLsY0pGX3GhnjxNdLe5K4by85gQFczNQXLkZakfSt1Z4yWjihltCJLNShjhisPaCVI/LesiGu1qFR6DQm+3A9LKKcG+3BjUKdXz+02OOsQsSJI8hiW6qy8g4Pw5budhw12tNl8LpwHSnnE26gVn+CtX9E00RcwQCg7/hFG/2U8UwA+4OD9hwBXWi2VUbj7TEY931aniLnRv9zat5ksD5RdlHsbGHGeh5s7rTardZL8u8+TNyvZUlXfVlXpwVQF2wAi7X3JgzHvrrA6AVMtXdNcOrfLCt9CAwO42OxA2vk4EPaZ4tVNYWRUUvYT+gpnyD3fr7EiGdJ6LCi2YZ2QANA5qoBdVMrM4+4qBShlBtnnk4Fzut7SIkTl1AgNm2v65Q6U4ABYXFGqEAA=

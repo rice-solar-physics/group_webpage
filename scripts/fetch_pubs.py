@@ -6,9 +6,7 @@
 import yaml
 import logging
 import argparse
-import os
-import sys
-sys.path.append("/Users/willbarnes/Documents/Web Development/ads")
+import os,sys
 import ads
 
 class FetchPubs(object):
@@ -29,9 +27,13 @@ class FetchPubs(object):
 
     def _set_key(self,ads_key):
         """Set token to query ADS"""
-        with open(ads_key,'r') as f:
-            self.my_ads_key = f.read()
-        f.close()
+        if os.path.exists(ads_key):
+            self.logger.debug('Setting ADS key from file %s'%ads_key)
+            with open(ads_key,'r') as f:
+                self.my_ads_key = f.read()
+            f.close()
+        else:
+            self.my_ads_key = ads_key
         ads.config.token = self.my_ads_key
         self.logger.info("Using ADS key from file %s"%ads_key)
 
@@ -141,13 +143,12 @@ class FetchPubs(object):
         yf.close()
 
 
-
 def main():
     #Parse command line arguments
     parser = argparse.ArgumentParser(description='Query ADS database for publications from the Rice Solar Physics Research Group')
     parser.add_argument("-k","--ads_key",help="Path to file containing ADS key needed to query database")
     parser.add_argument("-d","--pub_db",help="YAML file to write publication entries to")
-    parser.add_argument("-p","--people_db",help="YAML file containing author info")
+    parser.add_argument("--people_db",help="YAML file containing author info")
     args = parser.parse_args()
     #Instantiate publication fetcher class
     pub_finder = FetchPubs(args.pub_db, people=['Bradshaw, S. J.','Bradshaw, Stephen'], people_db=args.people_db, ads_key=args.ads_key)
