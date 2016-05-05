@@ -12,8 +12,7 @@ install:
 before_script:
 - git config user.email "Travis CI"
 - git config user.name "Travis CI"
-- git fetch
-- git checkout master
+- git checkout -b master
 - python scripts/fetch_pubs.py -k ${ADS_KEY} -d _data/publications.yml
 script:
 - bundle exec jekyll build
