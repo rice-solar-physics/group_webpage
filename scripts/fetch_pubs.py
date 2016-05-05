@@ -35,8 +35,6 @@ class FetchPubs(object):
         else:
             self.my_ads_key = ads_key
         ads.config.token = self.my_ads_key
-        self.logger.info("Using ADS key from file %s"%ads_key)
-
 
     def _config_logger(self):
         """Configure logger instance"""
