@@ -28,10 +28,10 @@ paginate:         5
 paginate_path: "page:num"
 
 # Collections
-collections:
-  research:
-    output: true
-    permalink: /research/:path/
+#collections:
+#  research:
+#    output: true
+#    permalink: /research/:path/
 
 # Custom vars
 version:          2.1.0
