@@ -3,7 +3,6 @@ layout: page
 permalink: /Publications
 title: Publications
 ---
-
 <ol>
   {% for paper in site.data.publications %}
   <li>

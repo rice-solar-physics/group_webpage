@@ -3,11 +3,13 @@
 #date: 17 January 2015
 #description: class for fetching and parsing publications from ADS
 
-import yaml
 import logging
 import argparse
 import os,sys
+
 import ads
+import yaml
+
 
 class FetchPubs(object):
     """Class for querying ADS for publication information, compiling to YAML"""

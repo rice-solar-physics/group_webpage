@@ -3,7 +3,6 @@ layout: page
 permalink: /Software
 title: Software
 ---
-
 {% for sw in site.data.software %}
   <h2>{{ sw.name }}
   <a href="{{ sw.url }}"><i class="fa fa-github fa-lg"></i></a>
