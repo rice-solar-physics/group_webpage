@@ -3,23 +3,33 @@ layout: page
 permalink: /People
 title: People
 ---
-
-<h2>Current Members</h2>
-<ul>
-  {% for person in site.data.people %}
-    <h3>{{ person.name }}</h3>
-    <li>{{ person.position }}</li>
-    {% if person.webpage != null %}
-      <li><a href="{{ person.webpage }}" >Personal Webpage</a></li>
-    {% endif %}
+{% for category in site.data.people %}
+<div class="row">
+  <h2>{{ category.name }}</h2>
+  {% for person in category.people %}
+  <div class="col-sm-6 col-md-5 col-lg-5">
+    <div class="thumbnail">
+      {% if person.image != null %}
+      <img class="img-responsive" src="{{site.baseurl}}{{person.image}}"/>
+      {% else %}
+      <img class="img-responsive" src="http://placehold.it/500x500?text=no+picture"/>
+      {% endif %}
+      <div class="caption">
+        {% if person.webpage != null %}
+        <p class="lead" style="text-align:center"><a href="{{ person.webpage }}">{{ person.name }}</a></p>
+        {% else %}
+        <p class="lead" style="text-align:center">{{ person.name }}</p>
+        {% endif %}
+        {% if category.name == "Alumni" %}
+        <ul>
+        <li>{{ person.degree }} ({{ person.year }})</li>
+        <li>{{ person.position }}</li>
+        <li>{{ person.institution }}, {{ person.location }}</li>
+        </ul>
+        {% endif %}
+      </div>
+    </div>
+  </div>
   {% endfor %}
-</ul>
-<h2>Alumni</h2>
-<ul>
-  {% for person in site.data.alumni %}
-    <h3>{{ person.name }}</h3>
-    <li>{{ person.degree }} ({{ person.year }}), <em>{{ person.thesis }}</em></li>
-    <li>{{ person.position }}</li>
-    <li>{{ person.institution }}, {{ person.location }}</li>
-  {% endfor %}
-</ul>
+</div>
+{% endfor %}
