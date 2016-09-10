@@ -1,0 +1,602 @@
+- author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  - !!python/unicode 'Viall, N. M.'
+  bibcode: !!python/unicode '2016ApJ...821...63B'
+  page:
+  - !!python/unicode '63'
+  property:
+  - !!python/unicode 'OPENACCESS'
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'EPRINT_OPENACCESS'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'The Astrophysical Journal'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'Patterns of Activity in a Global Model of a Solar Active Region'
+  volume: !!python/unicode '821'
+  year: !!python/unicode '2016'
+- author:
+  - !!python/unicode 'Reep, J. W.'
+  - !!python/unicode 'Bradshaw, S. J.'
+  - !!python/unicode 'Holman, G. D.'
+  bibcode: !!python/unicode '2016ApJ...818...44R'
+  page:
+  - !!python/unicode '44'
+  property:
+  - !!python/unicode 'OPENACCESS'
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'EPRINT_OPENACCESS'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'The Astrophysical Journal'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'X-Ray Source Heights in a Solar Flare: Thick-target versus Thermal
+    Conduction Front Heating'
+  volume: !!python/unicode '818'
+  year: !!python/unicode '2016'
+- author:
+  - !!python/unicode 'Price, D. J.'
+  - !!python/unicode 'Taroyan, Y.'
+  - !!python/unicode 'Innes, D. E.'
+  - !!python/unicode 'Bradshaw, S. J.'
+  bibcode: !!python/unicode '2015SoPh..290.1931P'
+  page:
+  - !!python/unicode '1931'
+  property:
+  - !!python/unicode 'OPENACCESS'
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'PUB_OPENACCESS'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'Solar Physics'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'Forward Modelling of a Brightening Observed by AIA'
+  volume: !!python/unicode '290'
+  year: !!python/unicode '2015'
+- author:
+  - !!python/unicode 'Cargill, P. J.'
+  - !!python/unicode 'Warren, H. P.'
+  - !!python/unicode 'Bradshaw, S. J.'
+  bibcode: !!python/unicode '2015RSPTA.37340260C'
+  page:
+  - !!python/unicode '20140260'
+  property:
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'Philosophical Transactions of the Royal Society of London
+    Series A'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'Modelling nanoflares in active regions and implications for
+    coronal heating mechanisms'
+  volume: !!python/unicode '373'
+  year: !!python/unicode '2015'
+- author:
+  - !!python/unicode 'Reep, J. W.'
+  - !!python/unicode 'Bradshaw, S. J.'
+  - !!python/unicode 'Alexander, D.'
+  bibcode: !!python/unicode '2015ApJ...808..177R'
+  page:
+  - !!python/unicode '177'
+  property:
+  - !!python/unicode 'OPENACCESS'
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'EPRINT_OPENACCESS'
+  - !!python/unicode 'PUB_OPENACCESS'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'The Astrophysical Journal'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'Optimal Electron Energies for Driving Chromospheric Evaporation
+    in Solar Flares'
+  volume: !!python/unicode '808'
+  year: !!python/unicode '2015'
+- author:
+  - !!python/unicode 'McQuillen, P.'
+  - !!python/unicode 'Castro, J.'
+  - !!python/unicode 'Bradshaw, S. J.'
+  - !!python/unicode 'Killian, T. C.'
+  bibcode: !!python/unicode '2015PhPl...22d3514M'
+  page:
+  - !!python/unicode '043514'
+  property:
+  - !!python/unicode 'OPENACCESS'
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'EPRINT_OPENACCESS'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'Physics of Plasmas'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'Emergence of kinetic behavior in streaming ultracold neutral
+    plasmas'
+  volume: !!python/unicode '22'
+  year: !!python/unicode '2015'
+- author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  - !!python/unicode 'Klimchuk, J. A.'
+  bibcode: !!python/unicode '2015ApJ...811..129B'
+  page:
+  - !!python/unicode '129'
+  property:
+  - !!python/unicode 'OPENACCESS'
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'EPRINT_OPENACCESS'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'The Astrophysical Journal'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'Chromospheric Nanoflares as a Source of Coronal Plasma. II.
+    Repeating Nanoflares'
+  volume: !!python/unicode '811'
+  year: !!python/unicode '2015'
+- author:
+  - !!python/unicode 'Price, D. J.'
+  - !!python/unicode 'Taroyan, Y.'
+  - !!python/unicode 'Innes, D. E.'
+  - !!python/unicode 'Bradshaw, S. J.'
+  bibcode: !!python/unicode '2015SoPh..290.1931P'
+  page:
+  - !!python/unicode '1931'
+  property:
+  - !!python/unicode 'OPENACCESS'
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'PUB_OPENACCESS'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'Solar Physics'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'Forward Modelling of a Brightening Observed by AIA'
+  volume: !!python/unicode '290'
+  year: !!python/unicode '2015'
+- author:
+  - !!python/unicode 'Cargill, P. J.'
+  - !!python/unicode 'Warren, H. P.'
+  - !!python/unicode 'Bradshaw, S. J.'
+  bibcode: !!python/unicode '2015RSPTA.37340260C'
+  page:
+  - !!python/unicode '20140260'
+  property:
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'Philosophical Transactions of the Royal Society of London
+    Series A'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'Modelling nanoflares in active regions and implications for
+    coronal heating mechanisms'
+  volume: !!python/unicode '373'
+  year: !!python/unicode '2015'
+- author:
+  - !!python/unicode 'Taroyan, Y.'
+  - !!python/unicode 'Bradshaw, S. J.'
+  bibcode: !!python/unicode '2014SoPh..289.1959T'
+  page:
+  - !!python/unicode '1959'
+  property:
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'Solar Physics'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'Forward-Modeling of Doppler Shifts in EUV Spectral Lines'
+  volume: !!python/unicode '289'
+  year: !!python/unicode '2014'
+- author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  - !!python/unicode 'Hartigan, P.'
+  bibcode: !!python/unicode '2014ApJ...795...79B'
+  page:
+  - !!python/unicode '79'
+  property:
+  - !!python/unicode 'OPENACCESS'
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'EPRINT_OPENACCESS'
+  - !!python/unicode 'PUB_OPENACCESS'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'The Astrophysical Journal'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'On Sunspot and Starspot Lifetimes'
+  volume: !!python/unicode '795'
+  year: !!python/unicode '2014'
+- author:
+  - !!python/unicode 'Klimchuk, J. A.'
+  - !!python/unicode 'Bradshaw, S. J.'
+  bibcode: !!python/unicode '2014ApJ...791...60K'
+  page:
+  - !!python/unicode '60'
+  property:
+  - !!python/unicode 'OPENACCESS'
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'EPRINT_OPENACCESS'
+  - !!python/unicode 'PUB_OPENACCESS'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'The Astrophysical Journal'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'Are Chromospheric Nanoflares a Primary Source of Coronal Plasma?'
+  volume: !!python/unicode '791'
+  year: !!python/unicode '2014'
+- author:
+  - !!python/unicode 'Taroyan, Y.'
+  - !!python/unicode 'Bradshaw, S. J.'
+  bibcode: !!python/unicode '2014SoPh..289.1959T'
+  page:
+  - !!python/unicode '1959'
+  property:
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'Solar Physics'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'Forward-Modeling of Doppler Shifts in EUV Spectral Lines'
+  volume: !!python/unicode '289'
+  year: !!python/unicode '2014'
+- author:
+  - !!python/unicode 'Reep, J. W.'
+  - !!python/unicode 'Bradshaw, S. J.'
+  - !!python/unicode 'McAteer, R. T. J.'
+  bibcode: !!python/unicode '2013ApJ...778...76R'
+  page:
+  - !!python/unicode '76'
+  property:
+  - !!python/unicode 'OPENACCESS'
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'EPRINT_OPENACCESS'
+  - !!python/unicode 'PUB_OPENACCESS'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'The Astrophysical Journal'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'On the Sensitivity of the GOES Flare Classification to Properties
+    of the Electron Beam in the Thick-target Model'
+  volume: !!python/unicode '778'
+  year: !!python/unicode '2013'
+- author:
+  - !!python/unicode 'McQuillen, P.'
+  - !!python/unicode 'Castro, J.'
+  - !!python/unicode 'Strickler, T.'
+  - !!python/unicode 'Bradshaw, S. J.'
+  - !!python/unicode 'Killian, T. C.'
+  bibcode: !!python/unicode '2013PhPl...20d3516M'
+  page:
+  - !!python/unicode '043516'
+  property:
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'Physics of Plasmas'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'Ion holes in the hydrodynamic regime in ultracold neutral plasmas'
+  volume: !!python/unicode '20'
+  year: !!python/unicode '2013'
+- author:
+  - !!python/unicode 'Cargill, P. J.'
+  - !!python/unicode 'Bradshaw, S. J.'
+  bibcode: !!python/unicode '2013ApJ...772...40C'
+  page:
+  - !!python/unicode '40'
+  property:
+  - !!python/unicode 'OPENACCESS'
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'EPRINT_OPENACCESS'
+  - !!python/unicode 'PUB_OPENACCESS'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'The Astrophysical Journal'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'The Cooling of Coronal Plasmas. IV. Catastrophic Cooling of
+    Loops'
+  volume: !!python/unicode '772'
+  year: !!python/unicode '2013'
+- author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  - !!python/unicode 'Cargill, P. J.'
+  bibcode: !!python/unicode '2013ApJ...770...12B'
+  page:
+  - !!python/unicode '12'
+  property:
+  - !!python/unicode 'OPENACCESS'
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'EPRINT_OPENACCESS'
+  - !!python/unicode 'PUB_OPENACCESS'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'The Astrophysical Journal'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'The Influence of Numerical Resolution on Coronal Density in
+    Hydrodynamic Models of Impulsive Heating'
+  volume: !!python/unicode '770'
+  year: !!python/unicode '2013'
+- author:
+  - !!python/unicode 'Reep, J. W.'
+  - !!python/unicode 'Bradshaw, S. J.'
+  - !!python/unicode 'Klimchuk, J. A.'
+  bibcode: !!python/unicode '2013ApJ...764..193R'
+  page:
+  - !!python/unicode '193'
+  property:
+  - !!python/unicode 'OPENACCESS'
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'EPRINT_OPENACCESS'
+  - !!python/unicode 'PUB_OPENACCESS'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'The Astrophysical Journal'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'Diagnosing the Time Dependence of Active Region Core Heating
+    from the Emission Measure. II. Nanoflare Trains'
+  volume: !!python/unicode '764'
+  year: !!python/unicode '2013'
+- author:
+  - !!python/unicode 'Petkaki, P.'
+  - !!python/unicode 'Del Zanna, G.'
+  - !!python/unicode 'Mason, H. E.'
+  - !!python/unicode 'Bradshaw, S. J.'
+  bibcode: !!python/unicode '2012A&A...547A..25P'
+  page:
+  - !!python/unicode 'A25'
+  property:
+  - !!python/unicode 'OPENACCESS'
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'PUB_OPENACCESS'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'Astronomy and Astrophysics'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'SDO AIA and EVE observations and modelling of solar flare loops'
+  volume: !!python/unicode '547'
+  year: !!python/unicode '2012'
+- author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  - !!python/unicode 'Klimchuk, J. A.'
+  - !!python/unicode 'Reep, J. W.'
+  bibcode: !!python/unicode '2012ApJ...758...53B'
+  page:
+  - !!python/unicode '53'
+  property:
+  - !!python/unicode 'OPENACCESS'
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'EPRINT_OPENACCESS'
+  - !!python/unicode 'PUB_OPENACCESS'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'The Astrophysical Journal'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'Diagnosing the Time-dependence of Active Region Core Heating
+    from the Emission Measure. I. Low-frequency Nanoflares'
+  volume: !!python/unicode '758'
+  year: !!python/unicode '2012'
+- author:
+  - !!python/unicode 'Cargill, P. J.'
+  - !!python/unicode 'Bradshaw, S. J.'
+  - !!python/unicode 'Klimchuk, J. A.'
+  bibcode: !!python/unicode '2012ApJ...752..161C'
+  page:
+  - !!python/unicode '161'
+  property:
+  - !!python/unicode 'OPENACCESS'
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'EPRINT_OPENACCESS'
+  - !!python/unicode 'PUB_OPENACCESS'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'The Astrophysical Journal'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'Enthalpy-based Thermal Evolution of Loops. II. Improvements
+    to the Model'
+  volume: !!python/unicode '752'
+  year: !!python/unicode '2012'
+- author:
+  - !!python/unicode 'Petkaki, P.'
+  - !!python/unicode 'Del Zanna, G.'
+  - !!python/unicode 'Mason, H. E.'
+  - !!python/unicode 'Bradshaw, S. J.'
+  bibcode: !!python/unicode '2012A&A...547A..25P'
+  page:
+  - !!python/unicode 'A25'
+  property:
+  - !!python/unicode 'OPENACCESS'
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'PUB_OPENACCESS'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'Astronomy and Astrophysics'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'SDO AIA and EVE observations and modelling of solar flare loops'
+  volume: !!python/unicode '547'
+  year: !!python/unicode '2012'
+- author:
+  - !!python/unicode 'Taroyan, Y.'
+  - "Erd\xE9lyi, R."
+  - !!python/unicode 'Bradshaw, S. J.'
+  bibcode: !!python/unicode '2011SoPh..269..295T'
+  page:
+  - !!python/unicode '295'
+  property:
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'Solar Physics'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'Observational Signatures of Impulsively Heated Coronal Loops:
+    Power-Law Distribution of Energies'
+  volume: !!python/unicode '269'
+  year: !!python/unicode '2011'
+- author:
+  - !!python/unicode 'Del Zanna, G.'
+  - !!python/unicode 'Mitra-Kraev, U.'
+  - !!python/unicode 'Bradshaw, S. J.'
+  - !!python/unicode 'Mason, H. E.'
+  - !!python/unicode 'Asai, A.'
+  bibcode: !!python/unicode '2011A&A...526A...1D'
+  page:
+  - !!python/unicode 'A1'
+  property:
+  - !!python/unicode 'OPENACCESS'
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'PUB_OPENACCESS'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'Astronomy and Astrophysics'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'The 22 May 2007 B-class flare: new insights from Hinode observations'
+  volume: !!python/unicode '526'
+  year: !!python/unicode '2011'
+- author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  - !!python/unicode 'Aulanier, G.'
+  - !!python/unicode 'Del Zanna, G.'
+  bibcode: !!python/unicode '2011ApJ...743...66B'
+  page:
+  - !!python/unicode '66'
+  property:
+  - !!python/unicode 'OPENACCESS'
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'PUB_OPENACCESS'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'The Astrophysical Journal'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'A Reconnection-driven Rarefaction Wave Model for Coronal Outflows'
+  volume: !!python/unicode '743'
+  year: !!python/unicode '2011'
+- author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  - !!python/unicode 'Klimchuk, J. A.'
+  bibcode: !!python/unicode '2011ApJS..194...26B'
+  page:
+  - !!python/unicode '26'
+  property:
+  - !!python/unicode 'OPENACCESS'
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'PUB_OPENACCESS'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'The Astrophysical Journal Supplement Series'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'What Dominates the Coronal Emission Spectrum During the Cycle
+    of Impulsive Heating and Cooling?'
+  volume: !!python/unicode '194'
+  year: !!python/unicode '2011'
+- author:
+  - !!python/unicode 'Taroyan, Y.'
+  - "Erd\xE9lyi, R."
+  - !!python/unicode 'Bradshaw, S. J.'
+  bibcode: !!python/unicode '2011SoPh..269..295T'
+  page:
+  - !!python/unicode '295'
+  property:
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'Solar Physics'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'Observational Signatures of Impulsively Heated Coronal Loops:
+    Power-Law Distribution of Energies'
+  volume: !!python/unicode '269'
+  year: !!python/unicode '2011'
+- author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  - !!python/unicode 'Cargill, P. J.'
+  bibcode: !!python/unicode '2010ApJ...717..163B'
+  page:
+  - !!python/unicode '163'
+  property:
+  - !!python/unicode 'OPENACCESS'
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'PUB_OPENACCESS'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'The Astrophysical Journal'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'The Cooling of Coronal Plasmas. III. Enthalpy Transfer as a
+    Mechanism for Energy Loss'
+  volume: !!python/unicode '717'
+  year: !!python/unicode '2010'
+- author:
+  - !!python/unicode 'Longcope, D. W.'
+  - !!python/unicode 'Bradshaw, S. J.'
+  bibcode: !!python/unicode '2010ApJ...718.1491L'
+  page:
+  - !!python/unicode '1491'
+  property:
+  - !!python/unicode 'OPENACCESS'
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'EPRINT_OPENACCESS'
+  - !!python/unicode 'PUB_OPENACCESS'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'The Astrophysical Journal'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'Slow Shocks and Conduction Fronts from Petschek Reconnection
+    of Skewed Magnetic Fields: Two-fluid Effects'
+  volume: !!python/unicode '718'
+  year: !!python/unicode '2010'
+- author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  - !!python/unicode 'Cargill, P. J.'
+  bibcode: !!python/unicode '2010ApJ...710L..39B'
+  page:
+  - !!python/unicode 'L39'
+  property:
+  - !!python/unicode 'OPENACCESS'
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'PUB_OPENACCESS'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'The Astrophysical Journal'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'A New Enthalpy-Based Approach to the Transition Region in an
+    Impulsively Heated Corona'
+  volume: !!python/unicode '710'
+  year: !!python/unicode '2010'
+- author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  - !!python/unicode 'Cargill, P. J.'
+  bibcode: !!python/unicode '2010ApJ...717..163B'
+  page:
+  - !!python/unicode '163'
+  property:
+  - !!python/unicode 'OPENACCESS'
+  - !!python/unicode 'REFEREED'
+  - !!python/unicode 'PUB_OPENACCESS'
+  - !!python/unicode 'ARTICLE'
+  pub: !!python/unicode 'The Astrophysical Journal'
+  rs_author:
+  - !!python/unicode 'Bradshaw, S. J.'
+  title:
+  - !!python/unicode 'The Cooling of Coronal Plasmas. III. Enthalpy Transfer as a
+    Mechanism for Energy Loss'
+  volume: !!python/unicode '717'
+  year: !!python/unicode '2010'
