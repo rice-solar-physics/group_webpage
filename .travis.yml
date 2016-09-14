@@ -13,12 +13,12 @@ install:
 - sudo pip install ads
 before_script:
 - python scripts/fetch_pubs.py -k ${ADS_KEY} -d _data/publications.yml
+- mkdir -p ${MOUNT_DIR}
 script:
 - bundle exec jekyll build
-after_script:
-- mkdir -p ${MOUNT_DIR}
 - sudo mount -t cifs -o username=${RU_USER},password=${RU_PASS},dom=ADRICE //storage.rice.edu/PhysAstro/Public/www/solar.rice.edu ${MOUNT_DIR}
 - sudo cp -r _site/ ${MOUNT_DIR}
+after_script:
 - sudo umount ${MOUNT_DIR}
 env:
   global:
