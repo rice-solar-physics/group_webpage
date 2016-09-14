@@ -17,7 +17,7 @@ script:
 - bundle exec jekyll build
 after_script:
 - mkdir -p ${MOUNT_DIR}
-- sudo mount -t cifs -o username=${RU_USER},password=${RU_PASS} //storage.rice.edu/PhysAstro/Public/www/solar.rice.edu ${MOUNT_DIR}
+- sudo mount -t cifs -o username=${RU_USER},password=${RU_PASS},dom=ADRICE //storage.rice.edu/PhysAstro/Public/www/solar.rice.edu ${MOUNT_DIR}
 - sudo cp -r _site/ ${MOUNT_DIR}
 - sudo umount ${MOUNT_DIR}
 env:
