@@ -8,6 +8,7 @@ branches:
   only:
   - master
 install:
+- sudo apt-get install cifs-utils
 - bundle install
 - sudo pip install ads
 before_script:
