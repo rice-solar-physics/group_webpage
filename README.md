@@ -3,7 +3,7 @@
 
 This webpage is hosted [here](http://solar.rice.edu).
 
-# Installing Locally
+## Installing Locally
 To build and test this webiste locally, you'll first need to install [Jekyll](https://jekyllrb.com/), the static site generator that's used to generate all of the HTML from the Markdown files. If you'd like to autogenerate the publication list, you'll also need to install [Python](https://www.python.org/) and the [ADS package](https://github.com/andycasey/ads).
 
 To grab the website and start the Jekyll server,
