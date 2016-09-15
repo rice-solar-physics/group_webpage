@@ -37,4 +37,4 @@ paginate_path: "page:num"
 version:          2.1.0
 
 github:
-  repo:           https://github.com/rice-solar-physics/rice-solar-physics.github.io
+  repo:           https://github.com/rice-solar-physics/group_webpage
