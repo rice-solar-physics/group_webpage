@@ -1,10 +1,8 @@
 # Rice Solar Physics Group Webpage
 [![Build Status](https://travis-ci.org/rice-solar-physics/group_webpage.svg?branch=master)](https://travis-ci.org/rice-solar-physics/group_webpage)
 
-This webpage is hosted [here](http://solar.rice.edu).
-
 ## Installing Locally
-To build and test this webiste locally, you'll first need to install [Jekyll](https://jekyllrb.com/), the static site generator that's used to generate all of the HTML from the Markdown files. If you'd like to autogenerate the publication list, you'll also need to install [Python](https://www.python.org/) and the [ADS package](https://github.com/andycasey/ads).
+To build and test this website locally, you'll first need to install [Jekyll](https://jekyllrb.com/), the static site generator that's used to generate all of the HTML from the Markdown files. If you'd like to autogenerate the publication list, you'll also need to install [Python](https://www.python.org/) and the [ADS package](https://github.com/andycasey/ads).
 
 To grab the website and start the Jekyll server,
 ```Shell
@@ -21,6 +19,7 @@ If you'd like to add a post to the "news reel" on the main page, add a file in t
 layout: post
 title: A Title for Your Post
 ---
+The content of your post goes here...
 ```
 Then, add any content you'd like using [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) syntax or vanilla HTML. Currently, this build uses the [kramdown](http://kramdown.gettalong.org/) Markdown parser.
 
