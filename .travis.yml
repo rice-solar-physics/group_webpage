@@ -7,6 +7,8 @@ sudo: required
 branches:
   only:
   - master
+addons:
+  ssh_known_hosts: wtb2.rice.edu
 install:
 - sudo apt-get install sshpass
 - bundle install
