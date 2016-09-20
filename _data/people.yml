@@ -1,6 +1,7 @@
 - name: "Faculty"
   people:
   - name: "David Alexander"
+    image: "images/alexander_bio.png"
     pub_name:
       - "Alexander, D."
       - "Alexander, David"
