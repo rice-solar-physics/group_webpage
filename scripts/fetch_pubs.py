@@ -5,7 +5,9 @@
 
 import logging
 import argparse
-import os,sys
+import os
+import sys
+import datetime
 
 import ads
 import yaml
@@ -81,7 +83,15 @@ class FetchPubs(object):
                 for ta in t.author:
                     if ta in self.people:
                         tmp_rsp_auth.append(ta)
-                self.top_level_pubs[a].append({'title':t.title, 'author':t.author, 'rs_author':tmp_rsp_auth, 'year':t.year, 'pub':t.pub, 'bibcode':t.bibcode, 'property':t.property, 'volume':t.volume, 'page':t.page})
+                self.top_level_pubs[a].append({'title':t.title,
+                   'author':t.author,
+                   'rs_author':tmp_rsp_auth,
+                   'year':t.year, 'pub':t.pub,
+                   'bibcode':t.bibcode,
+                   'property':t.property,
+                   'volume':t.volume,
+                   'page':t.page,
+                   'date':'-'.join(['01' if dt=='00' else dt for dt in t.pubdate.split('-')])})
                 self.logger.debug("Storing paper: %s"%t.title)
                 #pub counts for debugging
                 pub_count += 1
@@ -93,15 +103,20 @@ class FetchPubs(object):
     def flatten_and_sort(self):
         """Flatten publication list and sort by year"""
         #Flatten database
-        flat_pubs = []
-        for a in self.people:
-            flat_pubs += self.top_level_pubs[a]
+        flat_pubs = [pub for authors in self.top_level_pubs for pub in self.top_level_pubs[authors]]
         #Remove duplicates
-        #unique_pubs_set = set(tuple(fp.items()) for fp in flat_pubs)
-        #flat_pubs = [dict(ups) for ups in unique_pubs_set]
-        #TODO: can't use set on nested dict; find a better way to remove duplicates
+        #TODO: a more compact way to do this; currently not very pythonic
+        _tmp = []
+        _tmp_titles = []
+        for pub in flat_pubs:
+            if pub['title'] not in _tmp_titles:
+                _tmp_titles.append(pub['title'])
+                _tmp.append(pub)
+        flat_pubs = _tmp
         #Sort by year (newest on top)
-        self.flat_pubs = sorted(flat_pubs, key=lambda k: k['year'], reverse=True)
+        self.flat_pubs = sorted(flat_pubs,
+            key=lambda k: datetime.datetime.strptime(k['date'],'%Y-%m-%d'),
+            reverse=True)
 
 
     def filter_pubs(self,paper):
@@ -151,7 +166,7 @@ def main():
     parser.add_argument("--people_db",help="YAML file containing author info")
     args = parser.parse_args()
     #Instantiate publication fetcher class
-    pub_finder = FetchPubs(args.pub_db, people=['Bradshaw, S. J.','Bradshaw, Stephen'], people_db=args.people_db, ads_key=args.ads_key)
+    pub_finder = FetchPubs(args.pub_db, people=['Bradshaw, S. J.','Bradshaw, Stephen','Barnes, W. T.'], people_db=args.people_db, ads_key=args.ads_key)
     #Query database
     pub_finder.query_db()
     #Flatten and sort publications
