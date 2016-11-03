@@ -1,15 +1,55 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ site.name }}: {{ page.title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="{{ site.base }}/css/bootstrap.min.css" rel="stylesheet">
+        <link href="{{ site.base }}/css/group.css" rel="stylesheet">
+        <link rel="alternate" type="application/atom+xml" title="Atom"
+            href="{{ site.base }}/blog/blog.xml">
+    </head>
+    <body>
+        <div class="container">
+          <div class="header">
+            <ul class="nav nav-pills pull-right">
+              {% assign shorturl = page.url | replace:'index.html','' %}
+              {% for item in site.navigation %}
+                <li {% if item.link == shorturl %}class="active"{% endif %}>
+                  <a href="{{ site.base }}{{ item.link }}">
+                    {{ item.title }}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+            <a href="{{ site.base }}/">
+                <img src="{{ site.base }}/images/logo.png"
+                    srcset="{{ site.base }}/images/logo@2x.png 2x"
+                    alt="Awesome" id="logo">
+            </a>
+          </div>
 
-  {% include head.html %}
+          {% comment %}Liquid is sort of terrible! I think "!= true" is the
+          only way to do negation?{% endcomment %}
+          {% if page.notitle != true %}
+          <h2>{{ page.title }}</h2>
+          {% endif %}
 
-  <body class="theme-base-0d">
+          {{ content }}
 
-    {% include sidebar.html %}
+          <div class="footer">
+            <p>
+              <a href="http://dept.example.edu/">Illustrious Department</a>
+              at the
+              <a href="http://example.edu/">University of
+                Example</a>
+            </p>
+          </div>
 
-    <div class="content container">
-      {{ content }}
-    </div>
+        </div> <!-- /container -->
 
-  </body>
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+            src="{{ site.base }}/js/srcset-polyfill.js"></script>
+    </body>
 </html>
