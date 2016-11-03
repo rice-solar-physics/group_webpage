@@ -1,5 +1,7 @@
 # Dependencies
-markdown:         kramdown
+markdown:         redcarpet
+redcarpet:
+  extensions: [smart,tables]
 highlighter:      rouge
 
 # Permalinks
@@ -7,10 +9,11 @@ permalink:        pretty
 
 # Setup
 title:            Solar @Rice
+name:             Solar@Rice
 tagline:          'Rice Solar Physics Research Group webpage'
 description:      'Solar Physics Research Group at Rice University'
 baseurl:          /
-url:              http://rice-solar-physics.github.io
+url:              http://solar.rice.edu
 
 author:
   name:           'Will Barnes'
@@ -38,3 +41,29 @@ version:          2.1.0
 
 github:
   repo:           https://github.com/rice-solar-physics/group_webpage
+
+#stuff from sampa research group template
+# Sections on the "people" page.
+roles:
+    - {key: faculty, name: Faculty}
+    - {key: staff, name: Staff}
+    - {key: postdoc, name: Researchers}
+    - {key: grad, name: Graduate Students}
+    - {key: collab, name: Collaborators}
+    - {key: alum, name: Alumni}
+
+front_page_news: 8
+
+navigation:
+    - title: Home
+      link: /
+    - title: People
+      link: /People.html
+    - title: Research
+      link: /Research.html
+    - title: Publications
+      link: /Publications.html
+    - title: Software
+      link: /Software.html
+    - title: Resources
+      link: /Resources.html
