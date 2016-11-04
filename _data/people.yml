@@ -1,66 +1,73 @@
-- name: "Faculty"
-  people:
-  - name: "David Alexander"
-    image: "images/alexander_bio.png"
-    pub_name:
-      - "Alexander, D."
-      - "Alexander, David"
-    webpage: "http://report.rice.edu/sir/faculty.detail?p=3A13D9FC465BDF33"
-  - name: "Stephen Bradshaw"
-    image: "images/bradshaw_bio.png"
-    pub_name:
-      - "Bradshaw, S. J."
-      - "Bradshaw, Stephen"
-    webpage: "http://report.rice.edu/sir/faculty.detail?p=0EC4BA03C8DC0DCB3AB472F0CD2BAB22"
-- name: "Research Scientists"
-  people:
-    - name: "Antoun Daou"
-- name: "Graduate Students"
-  people:
-  - name: "Shah Bahauddin"
-    image: "images/bahauddin_bio.png"
-  - name: "Will Barnes"
-    image: "images/barnes_bio.png"
-    pub_name:
-      - "Barnes, W. T."
-    webpage: "http://wtbarnes.github.io/"
-  - name: "Anthony Sciola"
-- name: "Undergraduate Students"
-  people:
-  - name: "Matt Schwartz"
-  - name: "Maryam Sheikh"
-- name: "Alumni"
-  people:
-  - name: "Brandon Mueller"
-    degree: "MS"
-    year: "2015"
-    thesis: "The Source and Time Variability of the Slow Solar Wind"
-    current_position: "Research Scientist"
-    institution: "AFRL"
-    location: "Albuquerque, NM"
-  - name: "Jeffrey Reep"
-    degree: "PhD"
-    year: "2014"
-    thesis: "Solar Flare Spectral Modeling"
-    current_position: "Postdoctoral Researcher"
-    institution: "NRL"
-    location: "Washington, DC"
-  - name: "Chunming Zhu"
-    degree: "PhD"
-    year: "2014"
-  - name: "Anne Sandman"
-    degree: "PhD"
-    year: "2010"
-  - name: "Gary Kilper"
-    degree: "PhD"
-    year: "2009"
-  - name: "Aaron Coyner"
-    degree: "PhD"
-    year: "2008"
-  - name: "Rui Liu"
-    degree: "PhD"
-    year: "2008"
-  - name: "Holly Gilbert"
-    position: "Research Scientist"
-  - name: "Lirong Tian"
-    position: "Research Scientist"
+- name: "David Alexander"
+  role: faculty
+  image: "images/alexander_bio.png"
+  pub_name:
+    - "Alexander, D."
+    - "Alexander, David"
+  webpage: "http://report.rice.edu/sir/faculty.detail?p=3A13D9FC465BDF33"
+- name: "Stephen Bradshaw"
+  role: faculty
+  image: "images/bradshaw_bio.png"
+  pub_name:
+    - "Bradshaw, S. J."
+    - "Bradshaw, Stephen"
+  webpage: "http://report.rice.edu/sir/faculty.detail?p=0EC4BA03C8DC0DCB3AB472F0CD2BAB22"
+- name: "Antoun Daou"
+  role: ressci
+- name: "Shah Bahauddin"
+  image: "images/bahauddin_bio.png"
+  role: grad
+- name: "Will Barnes"
+  image: "images/barnes_bio.png"
+  role: grad
+  pub_name:
+    - "Barnes, W. T."
+  webpage: "http://wtbarnes.github.io/"
+- name: "Anthony Sciola"
+  role: grad
+- name: "Matt Schwartz"
+  role: ugrad
+- name: "Maryam Sheikh"
+  role: ugrad
+- name: "Brandon Mueller"
+  role: alum
+  degree: "MS"
+  year: "2015"
+  thesis: "The Source and Time Variability of the Slow Solar Wind"
+  current_position: "Research Scientist"
+  institution: "AFRL"
+  location: "Albuquerque, NM"
+- name: "Jeffrey Reep"
+  role: alum
+  degree: "PhD"
+  year: "2014"
+  thesis: "Solar Flare Spectral Modeling"
+  current_position: "Postdoctoral Researcher"
+  institution: "NRL"
+  location: "Washington, DC"
+- name: "Chunming Zhu"
+  role: alum
+  degree: "PhD"
+  year: "2014"
+- name: "Anne Sandman"
+  role: alum
+  degree: "PhD"
+  year: "2010"
+- name: "Gary Kilper"
+  role: alum
+  degree: "PhD"
+  year: "2009"
+- name: "Aaron Coyner"
+  role: alum
+  degree: "PhD"
+  year: "2008"
+- name: "Rui Liu"
+  role: alum
+  degree: "PhD"
+  year: "2008"
+- name: "Holly Gilbert"
+  role: alum
+  position: "Research Scientist"
+- name: "Lirong Tian"
+  role: alum
+  position: "Research Scientist"
