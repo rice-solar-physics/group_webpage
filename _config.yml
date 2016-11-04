@@ -8,7 +8,7 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            Solar @Rice
+title:            Solar@Rice
 name:             Solar@Rice
 tagline:          'Rice Solar Physics Research Group webpage'
 description:      'Solar Physics Research Group at Rice University'
@@ -42,8 +42,7 @@ version:          2.1.0
 github:
   repo:           https://github.com/rice-solar-physics/group_webpage
 
-#stuff from sampa research group template
-# Sections on the "people" page.
+#roles for people.
 roles:
   - {key: faculty, name: Faculty}
   - {key: ressci, name: Research Scientists}
@@ -53,6 +52,7 @@ roles:
 
 front_page_news: 8
 
+#nav bar configuration
 navigation:
     - title: Home
       link: /
