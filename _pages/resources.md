@@ -3,9 +3,7 @@ layout: default
 permalink: /Resources
 title: Resources
 ---
-<dl>
-  {% for res in site.data.resources %}
-    <dt><a href="{{res.link}}">{{res.name}}</a></dt>
-    <dd>{{res.description}}</dd>
-  {% endfor %}
-</dl>
+{% for res in site.data.resources %}
+<h4><a href="{{res.link}}">{{res.name}}</a></h4>
+<p>{{res.description}}</p>
+{% endfor %}
