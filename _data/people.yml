@@ -1,35 +1,44 @@
-- name: "David Alexander"
+- first_name: "David"
+  last_name: "Alexander"
   role: faculty
   image: "images/alexander_bio.png"
   pub_name:
     - "Alexander, D."
     - "Alexander, David"
   webpage: "http://report.rice.edu/sir/faculty.detail?p=3A13D9FC465BDF33"
-- name: "Stephen Bradshaw"
+- first_name: "Stephen"
+  last_name: "Bradshaw"
   role: faculty
   image: "images/bradshaw_bio.png"
   pub_name:
     - "Bradshaw, S. J."
     - "Bradshaw, Stephen"
   webpage: "http://report.rice.edu/sir/faculty.detail?p=0EC4BA03C8DC0DCB3AB472F0CD2BAB22"
-- name: "Antoun Daou"
+- first_name: "Antoun"
+  last_name: "Daou"
   role: ressci
-- name: "Shah Bahauddin"
+- first_name: "Shah"
+  last_name: "Bahauddin"
   image: "images/bahauddin_bio.png"
   role: grad
-- name: "Will Barnes"
+- first_name: "Will"
+  last_name: "Barnes"
   image: "images/barnes_bio.png"
   role: grad
   pub_name:
     - "Barnes, W. T."
   webpage: "http://wtbarnes.github.io/"
-- name: "Anthony Sciola"
+- first_name: "Anthony"
+  last_name: "Sciola"
   role: grad
-- name: "Matt Schwartz"
+- first_name: "Matt"
+  last_name: "Schwartz"
   role: ugrad
-- name: "Maryam Sheikh"
+- first_name: "Maryam"
+  last_name: "Sheikh"
   role: ugrad
-- name: "Brandon Mueller"
+- first_name: "Brandon"
+  last_name: "Mueller"
   role: alum
   degree: "MS"
   year: "2015"
@@ -37,7 +46,8 @@
   current_position: "Research Scientist"
   institution: "AFRL"
   location: "Albuquerque, NM"
-- name: "Jeffrey Reep"
+- first_name: "Jeffrey"
+  last_name: "Reep"
   role: alum
   degree: "PhD"
   year: "2014"
@@ -45,29 +55,36 @@
   current_position: "Postdoctoral Researcher"
   institution: "NRL"
   location: "Washington, DC"
-- name: "Chunming Zhu"
+- first_name: "Chunming"
+  last_name: "Zhu"
   role: alum
   degree: "PhD"
   year: "2014"
-- name: "Anne Sandman"
+- first_name: "Anne"
+  last_name: "Sandman"
   role: alum
   degree: "PhD"
   year: "2010"
-- name: "Gary Kilper"
+- first_name: "Gary"
+  last_name: "Kilper"
   role: alum
   degree: "PhD"
   year: "2009"
-- name: "Aaron Coyner"
+- first_name: "Aaron"
+  last_name: "Coyner"
   role: alum
   degree: "PhD"
   year: "2008"
-- name: "Rui Liu"
+- first_name: "Rui"
+  last_name: "Liu"
   role: alum
   degree: "PhD"
   year: "2008"
-- name: "Holly Gilbert"
+- first_name: "Holly"
+  last_name: "Gilbert"
   role: alum
   position: "Research Scientist"
-- name: "Lirong Tian"
+- first_name: "Lirong"
+  last_name: "Tian"
   role: alum
   position: "Research Scientist"
