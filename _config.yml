@@ -10,10 +10,9 @@ permalink:        pretty
 # Setup
 title:            Solar@Rice
 name:             Solar@Rice
-tagline:          'Rice Solar Physics Research Group webpage'
-description:      'Solar Physics Research Group at Rice University'
-baseurl:          /
+description:      'The <b>Solar Physics Research Group</b> at <b>Rice University</b> uses computational modeling and observational tools to explore a variety of topics in solar and space plasma physics. Our current <a href="{{ site.base}}/Research.html">research projects</a> range from forward modeling of nanoflare-heated solar active regions to magnetic interactions between stars and planets. We are housed within the Department of Physics and Astronomy and located primarily in <a href="http://www.rice.edu/maps/Rice-University-Color-Campus-Map.pdf">Herman Brown Hall for Mathematical Sciences</a>.'
 url:              http://solar.rice.edu
+baseurl:          /
 
 author:
   name:           'Will Barnes'
@@ -50,7 +49,7 @@ roles:
   - {key: ugrad, name: Undergraduate Students}
   - {key: alum, name: Alumni}
 
-front_page_news: 8
+front_page_news: 5
 
 #nav bar configuration
 navigation:
