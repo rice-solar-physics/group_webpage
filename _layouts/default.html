@@ -4,29 +4,44 @@
         <meta charset="utf-8">
         <title>{{ site.name }}: {{ page.title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="{{ site.base }}/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- JS -->
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <!-- CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link href="{{ site.base }}/css/group.css" rel="stylesheet">
+        <link href="{{ site.base }}/css/custom.css" rel="stylesheet">
+        <!-- Font Awesome Icons-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+
+        <!-- RSS -->
         <link rel="alternate" type="application/atom+xml" title="Atom"
             href="{{ site.base }}/blog/blog.xml">
+
+        <!-- Icons -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}images/icons/apple-touch-icon-144x144.png">
+        <link rel="shortcut icon" href="{{ site.baseurl }}images/icons/favicon.ico">
     </head>
     <body>
         <div class="container">
           <div class="header">
-            <ul class="nav nav-pills pull-right">
-              {% assign shorturl = page.url | replace:'index.html','' %}
-              {% for item in site.navigation %}
-                <li {% if item.link == shorturl %}class="active"{% endif %}>
-                  <a href="{{ site.base }}{{ item.link }}">
-                    {{ item.title }}
-                  </a>
-                </li>
-              {% endfor %}
-            </ul>
             <a href="{{ site.base }}/">
-                <img src="{{ site.base }}/images/logo.png"
-                    srcset="{{ site.base }}/images/logo@2x.png 2x"
-                    alt="Awesome" id="logo">
+            <img src="{{ site.base }}/images/logo.png"
+                srcset="{{ site.base }}/images/logo@2x.png 2x"
+                alt="Awesome" id="logo">
             </a>
+            <ul class="nav nav-pills pull-right">
+            {% for item in site.navigation %}
+              <li class="nav-item">
+              {% assign shortlink = item.link | replace:'.html','' %}
+              <a class="nav-link {% if page.url contains shortlink %}active{% endif %}" href="{{ site.base }}{{ item.link }}">
+              {{ item.title }}
+              </a>
+              </li>
+            {% endfor %}
+            </ul>
           </div>
 
           {% comment %}Liquid is sort of terrible! I think "!= true" is the
@@ -38,7 +53,7 @@
           {{ content }}
 
           <div class="footer">
-            <p>Solar@Rice - 
+            <p>Solar@Rice -
               <a href="http://physics.rice.edu/">Physics and Astronomy</a>
               at
               <a href="http://www.rice.edu/">Rice University</a> / Built with <a href="https://jekyllrb.com/">Jekyll</a> / Template courtesy of <a href="https://github.com/uwsampa/research-group-web">sampa</a>
@@ -48,7 +63,6 @@
         </div> <!-- /container -->
 
         <!-- Support retina images. -->
-        <script type="text/javascript"
-            src="{{ site.base }}/js/srcset-polyfill.js"></script>
+        <script type="text/javascript" src="{{ site.base }}/js/srcset-polyfill.js"></script>
     </body>
 </html>
