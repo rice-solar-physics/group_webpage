@@ -2,8 +2,13 @@
 layout: default
 permalink: /Resources
 title: Resources
+notitle: false
 ---
-{% for res in site.data.resources %}
-<h4><a href="{{res.link}}">{{res.name}}</a></h4>
-<p>{{res.description}}</p>
-{% endfor %}
+<div class="list-group">
+  {% for res in site.data.resources %}
+  <a href="{{res.link}}" class="list-group-item list-group-item-action">
+  <h4 class="list-group-item-heading">{{res.name}}</h4>
+  <p class="list-group-item-text">{{res.description}}</p>
+  </a>
+  {% endfor %}
+</div>
