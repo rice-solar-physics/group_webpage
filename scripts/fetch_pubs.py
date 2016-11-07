@@ -1,7 +1,7 @@
-#name: fetch_pubs.py
-#author: Will Barnes
-#date: 17 January 2015
-#description: class for fetching and parsing publications from ADS
+"""
+Fetch and parse publications from ADS and print to YAML to be displayed
+on group webpage. Uses the Python bindings for the APS API
+"""
 
 import logging
 import argparse
@@ -83,6 +83,11 @@ class FetchPubs(object):
                 for ta in t.author:
                     if ta in self.people:
                         tmp_rsp_auth.append(ta)
+                #citation count
+                try:
+                    citation_count = len(t.citation)
+                except TypeError:
+                    citation_count = 0
                 self.top_level_pubs[a].append({'title':t.title,
                    'author':t.author,
                    'rs_author':tmp_rsp_auth,
@@ -91,6 +96,7 @@ class FetchPubs(object):
                    'property':t.property,
                    'volume':t.volume,
                    'page':t.page,
+                   'citation_count':citation_count,
                    'date':'-'.join(['01' if dt=='00' else dt for dt in t.pubdate.split('-')])})
                 self.logger.debug("Storing paper: %s"%t.title)
                 #pub counts for debugging
@@ -151,10 +157,14 @@ class FetchPubs(object):
         #Check for empty publication list
         if not self.flat_pubs:
             self.logger.warning("Printing empty publiction list to %s. Set publication list with self.flatten_and_sort()"%self.pub_db)
+        #Make a list of years as well
+        pub_container = {'pubs':self.flat_pubs}
+        pub_container['years'] = sorted(list(set(
+                        [pub['year'] for pub in self.flat_pubs])),reverse=True)
         #Print publication list to YAML file
         self.logger.info("Printing publication list to %s"%self.pub_db)
         with open(self.pub_db,'w') as yf:
-            yf.write(yaml.dump(self.flat_pubs,default_flow_style=False))
+            yf.write(yaml.dump(pub_container,default_flow_style=False))
         yf.close()
 
 
