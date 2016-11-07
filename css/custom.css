@@ -5,3 +5,16 @@
 .fa.fa-github.fa-lg:hover{
   opacity: 0.75
 }
+
+.newsicon{
+  text-align: center;
+  color: #000000;
+  opacity: 0.4;
+  font-size: 2.5em;
+  padding: 0rem 1rem;
+  width: 4rem;
+}
+
+.newstitle{
+  font-size: 18px;
+}
