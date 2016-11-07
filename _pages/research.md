@@ -2,6 +2,7 @@
 layout: default
 permalink: /Research
 title: Research
+notitle: true
 ---
 <div class="row">
 {% for res in site.data.research %}
