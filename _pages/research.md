@@ -7,7 +7,7 @@ notitle: true
 {% for res in site.data.research %}
 <div class="row">
   <h2>{{ res.name }}</h2>
-  <div class="col-md-4">
+  <div class="col-md-3">
   {% if res.images != null %}
   {% for image in res.images %}
     <div class="thumbnail">
@@ -16,7 +16,7 @@ notitle: true
   {% endfor %}
   {% endif %}
   </div>
-  <div class="col-md-8">
+  <div class="col-md-9">
   <p>{{ res.description | markdownify }}</p>
   </div>
 </div>
