@@ -4,8 +4,8 @@ permalink: /Research
 title: Research
 notitle: true
 ---
-<div class="row">
 {% for res in site.data.research %}
+<div class="row">
   <h2>{{ res.name }}</h2>
   <div class="col-md-4">
   {% if res.images != null %}
@@ -19,5 +19,5 @@ notitle: true
   <div class="col-md-8">
   <p>{{ res.description | markdownify }}</p>
   </div>
-{% endfor %}
 </div>
+{% endfor %}
