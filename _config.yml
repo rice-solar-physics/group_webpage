@@ -26,9 +26,6 @@ gems:
   - jekyll-gist
   - pygments.rb
 
-paginate:         5
-paginate_path: "page:num"
-
 # Collections
 #collections:
 #  research:
