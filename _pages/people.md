@@ -10,7 +10,7 @@ notitle: true
 {% assign sortedpeople_year = site.data.people | sort: 'year' | reverse %}
 {% for role in site.roles %}
 <div class="row">
-  <h2>{{ role.name }}</h2>
+  <h3>{{ role.name }}</h3>
   {% if role.key != 'alum' %}
   {% for person in sortedpeople %}
   {% if person.role == role.key %}

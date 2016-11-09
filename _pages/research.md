@@ -6,7 +6,7 @@ notitle: true
 ---
 {% for res in site.data.research %}
 <div class="row">
-  <h2>{{ res.name }}</h2>
+  <h3>{{ res.name }}</h3>
   <div class="col-md-3">
   {% if res.images != null %}
   {% for image in res.images %}
