@@ -4,6 +4,20 @@ title: Home
 notitle: true
 ---
 <div class="jumbotron">
+  <div class="row">
+  {% if site.front_page_pics != null %}
+  {% comment %}Get the needed offset, assume they are all the same width
+  {% endcomment %}
+  {% assign offset = site.front_page_pics[0].width | times: site.front_page_pics.size %}
+  {% for pic in site.front_page_pics %}
+    <div class="col-sm-{{ pic.width }}{% if forloop.first == true %} col-sm-offset-{{ offset | minus: 12 | times: -1 | divided_by: 2}}{% endif %}">
+      <div class="thumbnail">
+      <img class="img-responsive" src="{{ pic.img }}"/>
+      </div>
+    </div>
+  {% endfor %}
+  {% endif %}
+  </div>
   <p>{{ site.description | markdownify }}</p>
 </div>
 
