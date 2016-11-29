@@ -11,14 +11,18 @@ notitle: true
   {% assign offset = site.front_page_pics[0].width | times: site.front_page_pics.size %}
   {% for pic in site.front_page_pics %}
     <div class="col-sm-{{ pic.width }}{% if forloop.first == true %} col-sm-offset-{{ offset | minus: 12 | times: -1 | divided_by: 2}}{% endif %}">
-      <div class="thumbnail">
-      <img class="img-responsive" src="{{ pic.img }}"/>
-      </div>
+      <!--<div class="thumbnail">-->
+      <figure class="figure">
+        <img class="figure-img img-fluid" src="{% if pic.img != null %}{{ site.baseurl }}{{ pic.img }}{% else %}http://placehold.it/250x250?text=no+picture{% endif %}">
+        <figcaption class="figure-caption text-xs-left">{{ pic.description }}</figcaption>
+      </figure>
     </div>
   {% endfor %}
   {% endif %}
   </div>
-  <p>{{ site.description | markdownify }}</p>
+  <div class="row">
+    <p>{{ site.description | markdownify }}</p>
+  </div>
 </div>
 
 <h2>News</h2>

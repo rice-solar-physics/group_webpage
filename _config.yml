@@ -50,14 +50,12 @@ front_page_news: 5
 
 #pictures to display on the front page
 front_page_pics:
-  - img: http://placehold.it/250x250?text=no+picture
-    description: A sample image
+  - description: A sample image
     width: 4
-  - img: http://placehold.it/250x250?text=no+picture
-    description: Another sample image
+  - description: Another sample image
     width: 4
-  - img: http://placehold.it/250x250?text=no+picture
-    description: Another sample image
+  - img: images/star_planet_interaction.png
+    description: "3D MHD simulation of a magnetic star-planet interaction; image courtesy A. Strugarek, U. Montréal"
     width: 4
 
 
