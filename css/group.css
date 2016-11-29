@@ -43,10 +43,10 @@ body {
 
 /* Jumbotron */
 .jumbotron {
-  text-align: center;
   border-bottom: 1px solid #e5e5e5;
 }
 .jumbotron p {
+    text-align: center;
     font-size: 15px;
 }
 .jumbotron {
