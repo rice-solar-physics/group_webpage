@@ -1,28 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <title>{{ site.name }}: {{ page.title }}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!-- CSS -->
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link href="{{ site.base }}/css/group.css" rel="stylesheet">
-        <link href="{{ site.base }}/css/custom.css" rel="stylesheet">
-        <!-- Font Awesome Icons-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
-
-        <!-- JS -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-
-        <!-- RSS -->
-        <link rel="alternate" type="application/atom+xml" title="Atom"
-            href="{{ site.base }}/blog/blog.xml">
-
-        <!-- Icons -->
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}images/icons/apple-touch-icon-144x144.png">
-        <link rel="shortcut icon" href="{{ site.baseurl }}images/icons/favicon.ico">
+        {% include head.html %}
     </head>
     <body>
         <div class="container">
@@ -35,8 +14,8 @@
             <ul class="nav nav-pills pull-right">
             {% for item in site.navigation %}
             {% assign shortlink = item.link | replace:'.html','' %}
-            <li {% if page.url == shortlink %}class="active"{% endif %}>
-            <a href="{{ site.base }}{{ item.link }}">{{ item.title }}</a>
+            <li class="nav-item">
+            <a class="nav-link {% if page.url == shortlink %}active{% endif %}" href="{{ site.base }}{{ item.link }}">{{ item.title }}</a>
             </li>
             {% endfor %}
             </ul>
