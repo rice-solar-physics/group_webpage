@@ -14,18 +14,18 @@ notitle: true
   {% if role.key != 'alum' %}
   {% for person in sortedpeople %}
   {% if person.role == role.key %}
-  <div class="col-lg-3">
-    <div class="thumbnail" style="border:0;box-shadow:none">
+  <div class="col-lg-4">
+    <div class="card" style="border:0;box-shadow:none">
       {% if person.image != null %}
-      <img class="img-circle" src="{{site.baseurl}}{{person.image}}" style="width:150px"/>
+      <img class="card-img-top img-fluid rounded-circle" src="{{site.baseurl}}{{person.image}}" style="width:150px"/>
       {% else %}
-      <img class="img-circle" src="http://placehold.it/150x150?text=no+picture"/>
+      <img class="card-img-top img-fluid rounded-circle" src="http://placehold.it/150x150?text=no+picture" />
       {% endif %}
-      <div class="caption" style="text-align:center">
+      <div class="card-block">
         {% if person.webpage != null %}
         <a href="{{ person.webpage }}">
         {% endif %}
-        <h4>{{ person.first_name }} {{ person.last_name}}</h4>
+        <h5 class="card-title">{{ person.first_name }} {{ person.last_name}}</h5>
         {% if person.webpage != null %}
         </a>
         {% endif %}
@@ -38,7 +38,7 @@ notitle: true
   {% for person in sortedpeople_year %}
   {% if person.role == role.key %}
   <div class="col-xs-12">
-    <h4 style="display:inline-block">{{ person.first_name }} {{ person.last_name }}</h4>
+    <h5 style="display:inline-block">{{ person.first_name }} {{ person.last_name }}</h5>
     <span>{% if person.degree != null and person.year != null %}{{ person.degree }} ({{ person.year }}){% endif %}{% if person.position != null %}{{ person.position }}{% endif %}</span>
   </div>
   {% endif %}

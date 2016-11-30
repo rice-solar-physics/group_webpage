@@ -6,12 +6,12 @@ notitle: true
 ---
 {% for res in site.data.research %}
 <div class="row">
-  <h3>{{ res.name }}</h3>
+  <h4>{{ res.name }}</h4>
   <div class="col-md-3">
   {% if res.images != null %}
   {% for image in res.images %}
-    <div class="thumbnail">
-    <img class="img-responsive" src="{{ site.baseurl }}{{ image }}"/>
+    <div class="card">
+    <img class="card-img-top img-responsive" src="{{ site.baseurl }}{{ image }}"/>
     </div>
   {% endfor %}
   {% endif %}
