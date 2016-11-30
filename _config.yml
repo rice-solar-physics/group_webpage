@@ -50,12 +50,14 @@ front_page_news: 5
 
 #pictures to display on the front page
 front_page_pics:
-  - description: A sample image
+  - img: images/loops_trace171.png
+    description: "Image: NASA/LMSAL TRACE 171"
     width: 4
-  - description: Another sample image
+  - img: images/flare_sdoaia171.png
+    description: "Image: NASA SDO/AIA 171"
     width: 4
   - img: images/star_planet_interaction.png
-    description: "3D MHD simulation of a magnetic star-planet interaction; image courtesy A. Strugarek, U. Montréal"
+    description: "Image: A. Strugarek, U. Montréal"
     width: 4
 
 
