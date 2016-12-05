@@ -4,37 +4,50 @@ permalink: /People
 title: People
 notitle: true
 ---
+{% comment %} Set profile picture width {% endcomment %}
+{% assign biopic_width = 200 %}
+{% comment %} Set number of people per row {% endcomment %}
+{% assign num_per_row = 4 %}
+{% comment %} Set width of person column {% endcomment %}
+{% assign col_width = 12 | divided_by: num_per_row %}
 {% comment %} Sort current people alphabetically {% endcomment %}
 {% assign sortedpeople = site.data.people | sort: 'last_name' %}
 {% comment %} Sort alumni by year, newest on top {% endcomment %}
 {% assign sortedpeople_year = site.data.people | sort: 'year' | reverse %}
-{% for role in site.roles %}
-<div class="row">
-  <h3>{{ role.name }}</h3>
+<div class="container-fluid">
+  {% for role in site.roles %}
   {% if role.key != 'alum' %}
-  {% for person in sortedpeople %}
+  {% for person in sortedpeople%}
   {% if person.role == role.key %}
-  <div class="col-lg-4">
-    <div class="card" style="border:0;box-shadow:none">
-      {% if person.image != null %}
-      <img class="card-img-top img-fluid rounded-circle" src="{{site.baseurl}}{{person.image}}" style="width:150px"/>
-      {% else %}
-      <img class="card-img-top img-fluid rounded-circle" src="http://placehold.it/150x150?text=no+picture" />
+  {% if person.index0 | modulo:num_per_row == 0 %}
+  <div class="row">
+  {% endif %}
+  <div class="col-lg-{{ col_width }}">
+  <div class="card" style="border:0;box-shadow:none">
+    {% if person.image != null %}
+    <img class="card-img-top img-fluid rounded-circle" src="{{site.baseurl}}{{person.image}}" style="width:{{ biopic_width }}px"/>
+    {% else %}
+    <img class="card-img-top img-fluid rounded-circle" src="http://placehold.it/{{ biopic_width }}x{{ biopic_width }}?text=no+picture" />
+    {% endif %}
+    <div class="card-block text-xs-center">
+      {% if person.webpage != null %}
+      <a href="{{ person.webpage }}">
       {% endif %}
-      <div class="card-block">
-        {% if person.webpage != null %}
-        <a href="{{ person.webpage }}">
-        {% endif %}
-        <h5 class="card-title">{{ person.first_name }} {{ person.last_name}}</h5>
-        {% if person.webpage != null %}
-        </a>
-        {% endif %}
-      </div>
+      <h5 class="card-title">{{ person.first_name }} {{ person.last_name}}</h5>
+      {% if person.webpage != null %}
+      </a>
+      {% endif %}
+      <p class="card-text text-muted">{{ role.name }}</p>
     </div>
   </div>
+  </div>
+  {% if person.index0 | plus:1 | modulo:num_per_row == 0 %}
+  </div>
+  {% endif %}
   {% endif %}
   {% endfor %}
   {% else %}
+  <h3>{{ role.name }}</h3>
   {% for person in sortedpeople_year %}
   {% if person.role == role.key %}
   <div class="col-xs-12">
@@ -44,5 +57,5 @@ notitle: true
   {% endif %}
   {% endfor %}
   {% endif %}
+  {% endfor %}
 </div>
-{% endfor %}

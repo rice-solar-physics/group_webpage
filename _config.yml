@@ -41,9 +41,9 @@ github:
 #roles for people.
 roles:
   - {key: faculty, name: Faculty}
-  - {key: ressci, name: Research Scientists}
-  - {key: grad, name: Graduate Students}
-  - {key: ugrad, name: Undergraduate Students}
+  - {key: ressci, name: Research Scientist}
+  - {key: grad, name: Graduate Student}
+  - {key: ugrad, name: Undergraduate Student}
   - {key: alum, name: Alumni}
 
 front_page_news: 5
