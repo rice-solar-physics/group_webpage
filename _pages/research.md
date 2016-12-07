@@ -4,6 +4,7 @@ permalink: /Research
 title: Research
 notitle: true
 ---
+<div class="container">
 {% for res in site.data.research %}
 <div class="row">
   <h4>{{ res.name }}</h4>
@@ -21,3 +22,4 @@ notitle: true
   </div>
 </div>
 {% endfor %}
+</div>
