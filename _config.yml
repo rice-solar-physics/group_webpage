@@ -33,7 +33,7 @@ gems:
 #    permalink: /research/:path/
 
 # Custom vars
-version:          2.1.0
+version:          1.0.0
 
 github:
   repo:           https://github.com/rice-solar-physics/group_webpage
