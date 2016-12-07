@@ -58,7 +58,7 @@ body {
 #logo {
     width: 154px;
     height: 35px;
-    margin: 2px 0 8px 0;
+    /*margin: 2px 0 8px 0;8*/
 }
 
 /* Responsive: Portrait tablets and up */
@@ -85,12 +85,21 @@ body {
         display: block;
         margin: 0 auto 1em;
     }
+    .nav-pills .nav-link {
+        padding: .5em .4em;
+    }
     #logo {
         display: block;
         clear: both;
-        margin: 1em auto;
+        /*margin: 1em auto;*/
     }
 }
+
+/*@media screen and (max-width: 475px){
+    .header {
+        padding-bottom: 50px;
+    }
+}*/
 
 /* Photo */
 .inset-image {
