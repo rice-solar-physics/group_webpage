@@ -27,9 +27,9 @@ notitle: true
 
 <h2>News</h2>
 <ul class="news list-unstyled">
-{% for post in site.posts limit: site.front_page_news %}
-{% include news-item.html item=post %}
-{% endfor %}
+  {% for post in site.posts limit: site.front_page_news %}
+  {% include news-item.html item=post %}
+  {% endfor %}
 </ul>
 {% assign numposts = site.posts | size %}
 {% if numposts >= site.front_page_news %}
