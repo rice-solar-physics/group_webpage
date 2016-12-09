@@ -5,8 +5,9 @@ title: Publications
 notitle: true
 ---
 {% for year in site.data.publications.years %}
-<h4>{{ year }}</h4>
-<div class="list-group">
+<div class="card">
+<h4 class="card-header">{{ year }}</h4>
+<div class="list-group list-group-flush">
   {% for paper in site.data.publications.pubs %}
   {% if paper.year contains year %}
   <a href="http://adsabs.harvard.edu/abs/{{ paper.bibcode }}" class="list-group-item list-group-item-action">
@@ -17,5 +18,6 @@ notitle: true
   </a>
   {% endif %}
   {% endfor %}
+</div>
 </div>
 {% endfor %}
