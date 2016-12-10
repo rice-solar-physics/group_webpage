@@ -27,10 +27,10 @@ gems:
   - pygments.rb
 
 # Collections
-#collections:
-#  research:
-#    output: true
-#    permalink: /research/:path/
+collections:
+  research:
+    output: true
+    permalink: /research/:path/
 
 # Custom vars
 version:          1.0.0
