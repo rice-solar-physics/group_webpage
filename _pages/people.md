@@ -4,6 +4,7 @@ permalink: /People
 title: People
 notitle: true
 ---
+{% comment %}Hardcoding is bad!{% endcomment %}
 {% comment %} Set profile picture width {% endcomment %}
 {% assign biopic_width = 200 %}
 {% comment %} Set number of people per row {% endcomment %}
