@@ -7,14 +7,14 @@
         <div class="container">
           <div class="header">
             <nav class="navbar">
-              <a href="{{ site.base }}/" class="navbar-brand">
-              <img src="{{ site.base }}/images/rsp_logo.png" srcset="{{ site.base }}/images/rsp_logo@2x.png" alt="Awesome" id="logo">
+              <a href="{{ site.baseurl }}" class="navbar-brand">
+              <img src="{{ site.baseurl }}images/rsp_logo.png" srcset="{{ site.baseurl }}images/rsp_logo@2x.png" alt="Awesome" id="logo">
               </a>
               <ul class="nav nav-pills pull-right">
                 {% for item in site.navigation %}
-                {% assign shortlink = item.link | replace:'.html','' %}
+                {% assign shortlink = item.link | prepend: '/' %}
                 <li class="nav-item">
-                  <a class="nav-link {% if page.url == shortlink %}active{% endif %}" href="{{ site.base }}{{ item.link }}">{{ item.title }}</a>
+                  <a class="nav-link {% if page.url == shortlink %}active{% endif %}" href="{{ item.link | prepend: site.baseurl }}">{{ item.title }}</a>
                 </li>
                 {% endfor %}
               </ul>

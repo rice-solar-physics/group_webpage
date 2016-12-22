@@ -18,7 +18,7 @@ author:
   name:           'Will Barnes'
   email:          'will.t.barnes@rice.edu'
 
-include: ['_pages']
+include: ['_pages','images']
 
 # Gems
 gems:
@@ -30,7 +30,7 @@ gems:
 collections:
   research:
     output: true
-    permalink: /research/:path/
+    permalink: research-topics/:path/
 
 # Custom vars
 version:          1.0.0
@@ -64,14 +64,14 @@ front_page_pics:
 #nav bar configuration
 navigation:
     - title: Home
-      link: /
+      link:
     - title: People
-      link: /People.html
+      link: People
     - title: Research
-      link: /Research.html
+      link: Research
     - title: Publications
-      link: /Publications.html
+      link: Publications
     - title: Software
-      link: /Software.html
+      link: Software
     - title: Resources
-      link: /Resources.html
+      link: Resources
