@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Solar Flares
-short_description: Modeling flares via thick-target model with hydrodynamic simulations
+short_description: Modeling impulsively heated flaring loops with hydrodynamic simulations
 people:
  - Alexander
  - Bradshaw

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Active Region Heating
-short_description: Forward-modeling of active regions through advanced hydrodynamic simulations and atomic physics.
+short_description: Advanced forward modeling of active regions using hydrodynamic simulations of coronal loops
 people:
   - Barnes
   - Bradshaw

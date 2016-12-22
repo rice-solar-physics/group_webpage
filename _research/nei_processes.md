@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Non-equilibrium Processes in EUV Spectroscopy
-short_description: Analysis of low-lying transition-region loops in IRIS data, use of NEI in modeling to determine how these structures are heated.
+short_description: Heating and energetics of low-lying transition region loops in IRIS data
 people:
  - Bradshaw
  - Bahauddin

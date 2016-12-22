@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Forward Modeling
-short_description: Advanced modeling of coronal plasma using loop geometry and atomic physics in order to make better comparisons with observations.
+short_description: Incorporation of detailed atomic physics and instrument calculations into predictions of observations
 people:
  - Barnes
  - Bradshaw
