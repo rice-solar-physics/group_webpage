@@ -6,12 +6,10 @@ notitle: true
 <div class="jumbotron">
   <div class="row">
   {% if site.front_page_pics != null %}
-  {% comment %}Get the needed offset, assume they are all the same width
-  {% endcomment %}
+  {% comment %}Get the needed offset, assume they are all the same width{% endcomment %}
   {% assign offset = site.front_page_pics[0].width | times: site.front_page_pics.size %}
   {% for pic in site.front_page_pics %}
     <div class="col-sm-{{ pic.width }}{% if forloop.first == true %} col-sm-offset-{{ offset | minus: 12 | times: -1 | divided_by: 2}}{% endif %}">
-      <!--<div class="thumbnail">-->
       <figure class="figure">
         <img class="figure-img img-fluid rounded" src="{% if pic.img != null %}{{ site.baseurl }}{{ pic.img }}{% else %}http://placehold.it/250x250?text=no+picture{% endif %}">
         <figcaption class="figure-caption text-xs-center">{{ pic.description }}</figcaption>
@@ -33,8 +31,8 @@ notitle: true
 </ul>
 {% assign numposts = site.posts | size %}
 {% if numposts >= site.front_page_news %}
-<div style="display:inline-flex;align-items:center;">
-  <div class="newsicon"><i class="fa fa-history"></i></div>
+<div style="display:inline-flex;align-items:center">
+  <div class="newsicon" style="padding-right:10px"><i class="fa fa-history"></i></div>
   <a href="{{ site.base }}/blog/">Older posts&hellip;</a>
 </div>
 {% endif %}
