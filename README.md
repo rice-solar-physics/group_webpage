@@ -17,7 +17,7 @@ You can edit this site by either editing the files directly in the GitHub webapp
 
 ### Posts
 If you'd like to add a post to the "news reel" on the main page, add a file in the [`_posts/`](_posts/) directory using the naming convention `{yyyy}-{mm}-{dd}-{a_short_title}.md`. This automatically sets the timestamp of the post. The first several lines of your post must contain the following metadata:
-```
+```yaml
 ---
 layout: post
 title: A Title for Your Post
@@ -32,6 +32,22 @@ Then, add any content you'd like using [Markdown](https://github.com/adam-p/mark
 
 ### People
 To add information about a new group member, add an entry to the [`_data/people.yml`](_data/people.yml). The only required pieces of information are `first_name`, `last_name`, and `role`. `role` must be one of they keys listed under `roles` in [`_config.yml`](_config.yml).
+
+### Research
+To edit any of the research topic pages, make all of the changes in the appropriate Markdown file in the `research/` directory. You can write either Markdown or HTML. When adding images, put those in the `images/` directory and link to them appropriately.
+
+When adding a new research topic, add a new Markdown file in the `research/` directory and it will appear as a card on the "Research" page. Each file should include the following metadata,
+```yaml
+---
+layout: default
+title: A New Research Topic
+short_description: Here is a short summary that will show up on the card
+people:
+  - last_name_of_person_a_working_on_this_project
+  - last_name_of_person_b_working_on_this_project
+---
+The full description of the project should go here...
+```
 
 ### Other Metadata
 To edit any of the information in the other pages (e.g. Software, Resources), please do so in the corresponding YAML file in the [`_data/`](_data/) directory. Only edit the files in [`_pages/`](_pages/) if you'd like to change the actual layout of the page itself. Jekyll uses the [liquid templating language](https://shopify.github.io/liquid/) to avoid overly verbose Markdown files.
