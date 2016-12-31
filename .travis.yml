@@ -11,6 +11,7 @@ addons:
   ssh_known_hosts: wtb2.rice.edu
 install:
 - sudo apt-get install sshpass
+- sudo gem install bundler
 - bundle install
 - sudo pip install ads
 before_script:

@@ -9,7 +9,7 @@ notitle: true
 <h4 class="card-header">{{ year }}</h4>
 <div class="list-group list-group-flush">
   {% for paper in site.data.publications.pubs %}
-  {% if paper.year contains year %}
+  {% if paper.year == year %}
   <a href="http://adsabs.harvard.edu/abs/{{ paper.bibcode }}" class="list-group-item list-group-item-action">
     <span class="tag tag-pill tag-primary float-xs-right">{{ paper.citation_count }}</span>
     <h6 class="list-group-item-heading">{{ paper.title }}</h6>
