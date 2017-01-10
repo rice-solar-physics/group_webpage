@@ -18,7 +18,7 @@ before_script:
 - python scripts/fetch_pubs.py -k ${ADS_KEY} -d _data/publications.yml
 script:
 - bundle exec jekyll build
-- sshpass -p ${RU_PASS} rsync -a --delete _site/ ${RU_USER}@wtb2.rice.edu:${MOUNT_DIR}
+- 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; sshpass -p ${RU_PASS} rsync -a --delete _site/ ${RU_USER}@wtb2.rice.edu:${MOUNT_DIR}; fi'
 env:
   global:
   - MOUNT_DIR="/mnt/web/solar_dot_rice_dot_edu"
