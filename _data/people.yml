@@ -31,12 +31,6 @@
 - first_name: "Anthony"
   last_name: "Sciola"
   role: grad
-- first_name: "Matt"
-  last_name: "Schwartz"
-  role: ugrad
-- first_name: "Maryam"
-  last_name: "Sheikh"
-  role: ugrad
 - first_name: "Brandon"
   last_name: "Mueller"
   role: alum
@@ -88,3 +82,8 @@
   last_name: "Tian"
   role: alum
   position: "Research Scientist"
+- first_name: "Shane"
+  last_name: "Alpert"
+  role: alum
+  degree: "BS"
+  year: "2015"
