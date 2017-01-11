@@ -31,6 +31,9 @@
 - first_name: "Anthony"
   last_name: "Sciola"
   role: grad
+- first_name: "Alison"
+  last_name: "Farrish"
+  role: grad
 - first_name: "Brandon"
   last_name: "Mueller"
   role: alum
