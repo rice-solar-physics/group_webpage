@@ -15,12 +15,22 @@ notitle: true
 {% assign sortedpeople = site.data.people | sort: 'last_name' %}
 {% comment %} Sort alumni by year, newest on top {% endcomment %}
 {% assign sortedpeople_year = site.data.people | sort: 'year' | reverse %}
+{% comment %}Additional counter because there are nested loops{% endcomment %}
+{% assign people_counter = 0 %}
+{% comment %}Count number of current members{% endcomment %}
+{% assign current_member_count = 0 %}
+{% for people in site.data.people %}
+{% if people.role != 'alum' %}
+{% assign current_member_count = current_member_count | plus:1 %}
+{% endif %}
+{% endfor %}
 <div class="container-fluid">
   {% for role in site.roles %}
   {% if role.key != 'alum' %}
   {% for person in sortedpeople%}
   {% if person.role == role.key %}
-  {% if person.index0 | modulo:num_per_row == 0 %}
+  {% assign modindex0 = people_counter | modulo:num_per_row %}
+  {% if modindex0 == 0 %}
   <div class="row">
   {% endif %}
   <div class="col-lg-{{ col_width }}">
@@ -42,9 +52,12 @@ notitle: true
     </div>
   </div>
   </div>
-  {% if person.index0 | plus:1 | modulo:num_per_row == 0 %}
+  {% assign modindex1 = people_counter | plus:1 | modulo:num_per_row %}
+  {% assign modindex2 = people_counter | plus:1 %}
+  {% if modindex1 == 0 or modindex2 == current_member_count %}
   </div>
   {% endif %}
+  {% assign people_counter = people_counter | plus:1 %}
   {% endif %}
   {% endfor %}
   {% else %}
