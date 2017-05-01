@@ -31,6 +31,20 @@ collections:
   research:
     output: true
     permalink: research-topics/:path/
+  workshops:
+    mmisp-2017:
+      abbreviation: MMISP 2017 
+      navigation:
+      - title: Home
+        link: mmisp-2017/index
+      - title: Agenda
+        link: mmisp-2017/Agenda
+      - title: Participants
+        link: mmisp-2017/Participants
+      - title: Lodging
+        link: mmisp-2017/Lodging
+    output: true
+    permalink: :path/
 
 # Custom vars
 version:          1.0.0

@@ -6,12 +6,13 @@
     <body>
         <div class="container">
           <div class="header">
+            {% assign workshops = site.collections | where: "label", "workshops" | first %}
             <nav class="navbar">
-              <a href="{{ site.baseurl }}" class="navbar-brand">
-              <img src="{{ site.baseurl }}images/rsp_logo.png" srcset="{{ site.baseurl }}images/rsp_logo@2x.png" alt="Awesome" id="logo">
+              <a href="{{ site.baseurl }}{{ page.workshop_name }}" class="navbar-brand">
+                {{ workshops[page.workshop_name].abbreviation }}
               </a>
               <ul class="nav nav-pills pull-right">
-                {% for item in site.navigation %}
+                {% for item in workshops[page.workshop_name].navigation %}
                 {% assign shortlink = item.link | prepend: '/' %}
                 <li class="nav-item">
                   <a class="nav-link {% if page.url == shortlink %}active{% endif %}" href="{{ item.link | prepend: site.baseurl }}">{{ item.title }}</a>
