@@ -118,12 +118,12 @@ participants:
 {% for person in  sortedpeople %}
     <li class="list-group-item list-group-item-action justify-content-between">
     <div class="row lead">
-    <div class="col-xs-3">
+    <div class="col-sm-3">
     {% if person.grad_student != null %}<em>{% endif %}
     {{ person.first_name }} {{ person.last_name}}
     {% if person.grad_student != null %}</em>{% endif %}
     </div>
-    <div class="col-xs-9 text-xs-right">
+    <div class="col-sm-9 text-sm-right text-muted">
     {{ person.affiliation }} {% if person.affiliation == "Rice University" %}({{ person.department }}){% endif %}
     </div>
     </row>
