@@ -42,13 +42,13 @@ Welcome to the workshop on Modeling the Magnetic Interactions between Stars and 
 <div class="container">
 {% for contact in page.contacts %}
 <div class="row">
-<div class="col-xs-3 lead">
+<div class="col-sm-3 lead">
 {{ contact.first_name }} {{ contact.last_name }}
 </div>
-<div class="col-xs-5 lead text-muted">
+<div class="col-sm-5 lead text-muted">
 {{ contact.role }}
 </div>
-<div class="col-xs-4 lead">
+<div class="col-sm-4 lead">
 <i class="fa fa-phone" aria-hidden="true"></i>  {{ contact.phone }}
 <a href="mailto:{{ contact.email }}"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 </div>

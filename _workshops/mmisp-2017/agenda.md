@@ -134,10 +134,10 @@ agenda:
 {% for event in day.events %}
   <{% if event.talks != null %}a{% else %}li{% endif %} class="list-group-item justify-content-between" data-toggle="collapse" href="#talks{{ forloop.index }}">
   <div class="row lead">
-  <div class="col-xs-3">
+  <div class="col-sm-3">
   <b>{{ event.time }}</b>
   </div>
-  <div class="col-xs-9 text-xs-right">
+  <div class="col-sm-9 text-sm-right">
   {{ event.name }}{% if event.chair != null %} (Chair: {{ event.chair }}){% endif %}
   </div>
   </div>
@@ -146,10 +146,10 @@ agenda:
   {% for talk in event.talks %}
     <a href="#" class="list-group-item list-group-item-action">
     <div class="row">
-      <div class="col-xs-2">
-        {{ talk.time }}
+      <div class="col-sm-2">
+        <b>{{ talk.time }}</b>
       </div>
-      <div class="col-xs-10 text-xs-right">
+      <div class="col-sm-10 text-sm-right">
         {{ talk.name }}<br/><p class="text-muted">{{ talk.speaker }}</p>
       </div>
     </div>
