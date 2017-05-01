@@ -11,9 +11,9 @@ agenda:
     name: Reception, Martel College, Magister House (Building 50 on <a href="http://rsi.rice.edu/files/2016/11/Rice-University-Color-Campus-Map-Brockman-edited-24uch5w.jpg">campus map</a>)
 - date: Monday May 15
   events:
-  - time: 8:30 AM
+  - time: 8:30 - 9:00 AM
     name: Breakfast
-  - time: 9:00 AM
+  - time: 9:00 - 9:15 AM
     name: Statement and Introduction of Scope (Alexander and Cohen)
   - time: 9:15 - 10:30 AM
     name: Stellar Activity
@@ -110,7 +110,7 @@ agenda:
   - time: 8:30 - 9:00 AM
     name: Breakfast
   - time: 9:00 - 9:20 AM
-    name: Rice’s Magnetospheric/Ionospheric Modeling Capability - Frank Toffoletto
+    name: Rice’s Magnetospheric / Ionospheric Modeling Capability (Toffoletto)
   - time: 9:20 - 10:30 AM
     name: "Group Discussion: key ideas for collaboration"
   - time: 10:30 - 11:00 AM
