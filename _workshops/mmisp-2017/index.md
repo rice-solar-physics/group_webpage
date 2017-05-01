@@ -39,13 +39,19 @@ Welcome to the workshop on Modeling the Magnetic Interactions between Stars and 
 </ul>
 
 <h3>Contacts</h3>
-<dl class="row">
+<div class="container">
 {% for contact in page.contacts %}
-<dt class="col-sm-3 lead">{{ contact.first_name }} {{ contact.last_name }}</dt>
-<dd class="col-sm-5 lead text-muted">{{ contact.role }}</dd>
-<ul class="list-inline lead">
-<li class="list-inline-item"><i class="fa fa-phone" aria-hidden="true"></i>  {{ contact.phone }}</li>
-<li class="list-inline-item"><a href="mailto:{{ contact.email }}"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-</ul>
+<div class="row">
+<div class="col-xs-3 lead">
+{{ contact.first_name }} {{ contact.last_name }}
+</div>
+<div class="col-xs-5 lead text-muted">
+{{ contact.role }}
+</div>
+<div class="col-xs-4 lead">
+<i class="fa fa-phone" aria-hidden="true"></i>  {{ contact.phone }}
+<a href="mailto:{{ contact.email }}"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+</div>
+</div>
 {% endfor %}
-</dl>
+</div>
