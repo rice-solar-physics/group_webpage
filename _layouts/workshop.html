@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include head.html %}
+    </head>
+    <body>
+        <div class="container">
+          <div class="header">
+            {% assign workshops = site.collections | where: "label", "workshops" | first %}
+            <nav class="navbar">
+              <a href="{{ site.baseurl }}{{ page.workshop_name }}" class="navbar-brand">
+                {{ workshops[page.workshop_name].abbreviation }}
+              </a>
+              <ul class="nav nav-pills pull-right">
+                {% for item in workshops[page.workshop_name].navigation %}
+                {% assign shortlink = item.link | prepend: '/' %}
+                <li class="nav-item">
+                  <a class="nav-link {% if page.url == shortlink %}active{% endif %}" href="{{ item.link | prepend: site.baseurl }}">{{ item.title }}</a>
+                </li>
+                {% endfor %}
+              </ul>
+            </nav>
+          </div>
+
+          {% comment %}Liquid is sort of terrible! I think "!= true" is the
+          only way to do negation?{% endcomment %}
+          {% if page.notitle != true %}
+          <h2>{{ page.title }}</h2>
+          {% endif %}
+
+          {{ content }}
+
+          <div class="footer">
+            <p><a href="{{ site.url }}">Solar@Rice</a> -
+              <a href="http://physics.rice.edu/">Physics and Astronomy</a>
+              at
+              <a href="http://www.rice.edu/">Rice University</a> / Built with <a href="https://jekyllrb.com/">Jekyll</a> / Template and design courtesy of <a href="https://github.com/uwsampa/research-group-web">sampa</a>
+            </p>
+          </div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript" src="{{ site.base }}/js/srcset-polyfill.js"></script>
+    </body>
+</html>
