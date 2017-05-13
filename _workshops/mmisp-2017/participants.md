@@ -111,6 +111,11 @@ participants:
   last_name: Toffoletto
   affiliation: Rice University 
   department: Physics and Astronomy
+- first_name: Will
+  last_name: Barnes
+  affiliation: Rice University
+  department: Physics and Astronomy
+  grad_student: true
 ---
 <p class="lead"><em>Italics indicate participant is a graduate student</em></p>
 {% assign sortedpeople = page.participants | sort: 'last_name' %}
