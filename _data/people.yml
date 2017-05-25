@@ -17,6 +17,8 @@
 - first_name: "Antoun"
   last_name: "Daou"
   role: ressci
+  image: "images/daou_bio.png"
+  webpage: "http://www.antoundaou.com/"
 - first_name: "Shah"
   last_name: "Bahauddin"
   image: "images/bahauddin_bio.png"
@@ -34,6 +36,7 @@
 - first_name: "Alison"
   last_name: "Farrish"
   role: grad
+  image: "images/farish_bio.png"
 - first_name: "Brandon"
   last_name: "Mueller"
   role: alum
@@ -90,3 +93,14 @@
   role: alum
   degree: "BS"
   year: "2015"
+- first_name: Lily
+  last_name: Han
+  role: ugrad
+  image: "images/han_bio.png"
+- first_name: Ruochun
+  last_name: Zhang
+  role: ugrad
+  image: "images/zhang_bio.png"
+- first_name: Revati
+  last_name: Mandage
+  role: grad
