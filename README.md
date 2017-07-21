@@ -2,13 +2,13 @@
 [![Build Status](https://travis-ci.org/rice-solar-physics/group_webpage.svg?branch=master)](https://travis-ci.org/rice-solar-physics/group_webpage)
 
 ## Installing Locally
-To build and test this website locally, you'll first need to install [Jekyll](https://jekyllrb.com/), the static site generator that's used to generate all of the HTML from the Markdown files. If you'd like to autogenerate the publication list, you'll also need to install [Python](https://www.python.org/) and the [ADS package](https://github.com/andycasey/ads).
+To build and test this website locally, you'll first need to install [Jekyll](https://jekyllrb.com/), the static site generator that's used to generate all of the HTML from the Markdown files, and [Bundler](http://bundler.io/). If you'd like to autogenerate the publication list, you'll also need to install [Python](https://www.python.org/) and the [ADS package](https://github.com/andycasey/ads).
 
 To grab the website and start the Jekyll server,
 ```Shell
 $ git clone https://github.com/rice-solar-physics/group_webpage.git
 $ cd group_webpage
-$ jekyll serve
+$ bundle exec jekyll serve
 ```
 Navigate to `localhost:4000` in your web browser to see the site. Refresh the page to see your edits. Alternatively, you can edit/add pages as desired just using the GUI tools in the GitHub web app.
 
