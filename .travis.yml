@@ -13,7 +13,7 @@ install:
 - sudo apt-get install sshpass
 - gem install bundler
 - bundle install
-- sudo pip install ads
+- pip install ads
 before_script:
 - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then python scripts/fetch_pubs.py -k ${ADS_KEY} -d _data/publications.yml; fi'
 script:
