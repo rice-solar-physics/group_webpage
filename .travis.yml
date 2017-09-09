@@ -1,20 +1,19 @@
 language: ruby
 rvm:
 - 2.3
-python:
-- 3.5
 sudo: required
+dist: trusty
 branches:
   only:
   - master
 addons:
   ssh_known_hosts: wtb2.rice.edu
 install:
-- sudo apt-get install sshpass
+- sudo apt-get install sshpass -y
 - gem install bundler
 - bundle install
-- pip install ads
-- pip install PyYaml
+- sudo pip install ads
+- sudo pip install PyYaml
 before_script:
 - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then python scripts/fetch_pubs.py -k ${ADS_KEY} -d _data/publications.yml; fi'
 script:
