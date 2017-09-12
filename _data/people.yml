@@ -13,11 +13,15 @@
   pub_name:
     - "Bradshaw, S. J."
     - "Bradshaw, Stephen"
+    - "Bradshaw, Stephen J."
   webpage: "http://report.rice.edu/sir/faculty.detail?p=0EC4BA03C8DC0DCB3AB472F0CD2BAB22"
 - first_name: "Antoun"
   last_name: "Daou"
   role: ressci
   image: "images/daou_bio.png"
+  pub_name:
+    - "Daou, Antoun G."
+    - "Daou, Antoun Georges"
   webpage: "http://www.antoundaou.com/"
 - first_name: "Shah"
   last_name: "Bahauddin"
