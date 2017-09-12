@@ -14,7 +14,7 @@ notitle: true
     <span class="tag tag-pill tag-primary float-xs-right">{{ paper.citation_count }}</span>
     <h6 class="list-group-item-heading">{{ paper.title }}</h6>
     <p class="list-group-item-text">{% for au in paper.author %}{% if paper.rs_author contains au %}<strong>{{ au }}</strong>, {% else %}{{ au }}, {% endif %}{% endfor %}
-    {{ paper.pub }}</p>
+    <i>{{ paper.pub }}</i></p>
   </a>
   {% endif %}
   {% endfor %}
