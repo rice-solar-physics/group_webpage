@@ -15,7 +15,7 @@ install:
 - sudo pip install ads
 - sudo pip install PyYaml
 before_script:
-- 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then python scripts/fetch_pubs.py -k ${ADS_KEY} -d _data/publications.yml; fi'
+- python scripts/fetch_pubs.py -k ${ADS_KEY} -d _data/publications.yml
 script:
 - bundle exec jekyll build
 - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then sshpass -p ${RU_PASS} rsync -a --delete _site/ ${RU_USER}@wtb2.rice.edu:${MOUNT_DIR}; fi'
