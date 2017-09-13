@@ -2,8 +2,7 @@
 images/*.psd
 
 # Ignore publications db
-# Cannot do this. Need a placeholder so PR tests do not fail
-# _data/publications.yml
+_data/publications.yml
 
 # Ignore docs files
 _gh_pages
