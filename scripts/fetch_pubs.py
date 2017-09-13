@@ -83,7 +83,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Build publication list from ADS for Rice Solar group')
     parser.add_argument("-k", "--ads_key", help="Path to file containing ADS key needed to query database")
     parser.add_argument("-f", "--pub_file", help="YAML file to write publication entries to")
-    parser.add_argument("-p", "--people", help="YAML file containing author info")
+    parser.add_argument("-p", "--people", help="YAML file containing author info or comma-delimited author list")
     args = parser.parse_args()
     
     if os.path.exists(args.ads_key):
