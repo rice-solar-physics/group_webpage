@@ -8,6 +8,7 @@ To grab the website and start the Jekyll server,
 ```Shell
 $ git clone https://github.com/rice-solar-physics/group_webpage.git
 $ cd group_webpage
+$ bundle install
 $ bundle exec jekyll serve
 ```
 Navigate to `localhost:4000` in your web browser to see the site. Refresh the page to see your edits. Alternatively, you can edit/add pages as desired just using the GUI tools in the GitHub web app.
