@@ -5,6 +5,7 @@ short_description: Modeling of magnetic interactions between stars and planets
 people:
   - Alexander
   - Bradshaw
+  - Farrish
   - Sciola
 ---
 
