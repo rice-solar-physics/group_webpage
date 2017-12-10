@@ -1,0 +1,29 @@
+---
+layout: default
+permalink: /Publications
+title: Publications
+notitle: true
+---
+{% for year in site.data.publications.years %}
+<div id="list-spacing">
+<div class="card">
+<h4 class="card-header">{{ year }}</h4>
+<div class="list-group list-group-flush">
+  {% for paper in site.data.publications.pubs %}
+  {% if paper.year == year %}
+  <a href="http://adsabs.harvard.edu/abs/{{ paper.bibcode }}" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+    <p class="list-group-item-text">
+      <em>{{ paper.title }}</em><br>
+      {% for au in paper.author %}
+      {% if paper.rs_author contains au %}<strong>{{ au }}</strong>, {% else %}{{ au }}, {% endif %}
+      {% endfor %}
+      {{ paper.pub }}
+    </p>
+    <span class="badge badge-pill badge-primary">{{ paper.citation_count }}</span>
+  </a>
+  {% endif %}
+  {% endfor %}
+</div>
+</div>
+</div>
+{% endfor %}
