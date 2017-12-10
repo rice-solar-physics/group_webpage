@@ -18,3 +18,12 @@
 .newstitle{
   font-size: 18px;
 }
+
+#list-spacing {
+  padding-top:5px;
+}
+
+#inner-body {
+  padding-bottom:10px;
+  padding-top:10px;
+}
