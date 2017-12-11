@@ -7,5 +7,24 @@ people:
  - Bradshaw
  - Bahauddin
 ---
+### Introduction
+The solar corona
 
-Loop hydrodynamics work by Will, Steve, and Shah Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut commodo, turpis sed hendrerit volutpat, nisi tellus interdum eros, eget iaculis nisi tellus ut sapien. Quisque pulvinar vitae felis maximus finibus. Vestibulum egestas mi quis sem pretium finibus. Sed feugiat tincidunt semper. Proin pellentesque rutrum dui at commodo. Etiam eget urna ut mi suscipit pulvinar. Nullam accumsan tincidunt sodales. Pellentesque id lorem ac dui vulputate faucibus eu et tortor. Vivamus consequat ullamcorper maximus. Ut vulputate tincidunt ante non mattis. Nulla feugiat quis mauris id bibendum. Donec cursus accumsan leo vel fringilla. Praesent turpis est, ultrices ac leo ut, convallis bibendum ex. Etiam et eros egestas, pretium mi vitae, sodales tortor. Vestibulum finibus est semper iaculis dapibus. Pellentesque aliquam tristique quam, id viverra nisl tempus quis.
+* Brief intro to corona and what loops are
+* Why they are important
+* Observations
+
+### Equations
+The field-aligned equations describing loop hydrodynamics are given by,
+
+$$
+\frac{\mathrm{d}n}{\mathrm{d}t} = -n\frac{\partial v}{\partial s} \\
+$$
+
+### Numerics
+Describe work done on EBTEL and HYDRAD
+
+* HYDRAD picture/movie?
+* EBTEL T,n,h curves
+
+### References
