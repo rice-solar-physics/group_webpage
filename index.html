@@ -6,14 +6,12 @@ notitle: true
 <div class="jumbotron">
   <div class="row">
   {% if site.front_page_pics != null %}
-  {% comment %}Get the needed offset, assume they are all the same width{% endcomment %}
-  {% assign offset = site.front_page_pics[0].width | times: site.front_page_pics.size %}
   {% for pic in site.front_page_pics %}
-    <div class="col-sm-{{ pic.width }}{% if forloop.first == true %} col-sm-offset-{{ offset | minus: 12 | times: -1 | divided_by: 2}}{% endif %}">
-      <figure class="figure">
-        <img class="figure-img img-fluid rounded" src="{% if pic.img != null %}{{ pic.img | prepend: site.baseurl  }}{% else %}http://placehold.it/250x250?text=no+picture{% endif %}">
-        <figcaption class="figure-caption text-xs-center">{{ pic.description }}</figcaption>
-      </figure>
+    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+      <div class="card" style="background-color:#eee;border:0;box-shadow:none">
+        <img class="rounded" src="{{ pic.img | prepend: site.baseurl  }}">
+        <p class="card-text text-xs-center text-muted">{{ pic.description }}</p>
+      </div>
     </div>
   {% endfor %}
   {% endif %}
