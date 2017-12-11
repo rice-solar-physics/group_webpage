@@ -103,8 +103,14 @@
   image: "images/han_bio.png"
 - first_name: Ruochun
   last_name: Zhang
-  role: ugrad
+  role: alum
   image: "images/zhang_bio.png"
+  degree: "BS"
+  year: "2017"
 - first_name: Revati
   last_name: Mandage
   role: grad
+- first_name: Brandon
+  last_name: Wang
+  role: hs_intern
+  image: "images/wang_bio.png"

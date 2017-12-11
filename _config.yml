@@ -53,6 +53,7 @@ roles:
   - {key: grad, name: Graduate Student}
   - {key: ugrad, name: Undergraduate Student}
   - {key: alum, name: Alumni}
+  - {key: hs_intern, name: High School Intern}
 
 front_page_news: 5
 
