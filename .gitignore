@@ -1,3 +1,6 @@
+# Ignore lock file
+Gemfile.lock
+
 # Ignore PSD files
 images/*.psd
 

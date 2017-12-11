@@ -1,0 +1,59 @@
+---
+layout: default
+permalink: /People
+title: People
+notitle: true
+---
+<!-- List current members alphabetically -->
+{% assign sortedpeople = site.data.people | sort: 'last_name' %}
+<!-- List alumni chronologically, newest first -->
+{% assign sortedpeople_year = site.data.people | sort: 'year' | reverse %}
+<div class="container-fluid">
+  <!-- Current Members -->
+  <div class="row">
+  {% for role in site.roles %}
+  {% if role.key != 'alum' %}
+  {% for person in sortedpeople%}
+  {% if person.role == role.key %}
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="card" style="border:0;box-shadow:none">
+        {% if person.image != null %}
+        <img class="card-img-top img-fluid rounded-circle" src="{{site.baseurl}}{{person.image}}"/>
+        {% else %}
+        <img class="card-img-top img-fluid rounded-circle" src="http://placehold.it/200x200?text=no+picture" />
+        {% endif %}
+        <div class="card-body text-lg-center text-md-center text-sm-center text-xs-center">
+          <div class="card-title">
+            <h5>
+            {% if person.webpage != null %}
+            <a href="{{ person.webpage }}">
+            {% endif %}
+            {{ person.first_name }} {{ person.last_name}}
+            {% if person.webpage != null %}
+            </a>
+            {% endif %}
+            </h5>
+            <p class="text-muted">{{ role.name }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+  {% endfor %}
+  {% endif %}
+  {% endfor %}
+  </div>
+  <!-- Former Members -->
+  <h3>Alumni</h3>
+  <ul>
+  {% for person in sortedpeople_year %}
+  {% if person.role == 'alum' %}
+    <li class="list-unstyled">
+      <h5>{{ person.first_name }} {{ person.last_name }}
+      <span class="lead text-muted">{% if person.degree != null and person.year != null %}{{ person.degree }} ({{ person.year }}){% endif %}{% if person.position != null %}{{ person.position }}{% endif %}</span>
+      </h5>
+    </li>
+  {% endif %}
+  {% endfor %}
+  </ul>
+</div>

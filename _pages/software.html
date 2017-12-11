@@ -5,6 +5,7 @@ title: Software
 notitle: true
 ---
 {% for sw in site.data.software %}
+<div id="list-spacing">
 <div class="card">
   <div class="card-header">
     <div class="pull-right">
@@ -15,8 +16,9 @@ notitle: true
     </div>
     <h4>{{ sw.name }}</h4>
   </div>
-  <div class="card-block">
+  <div class="card-body">
     <p class="card-text">{{ sw.description | markdownify }}</p>
   </div>
+</div>
 </div>
 {% endfor %}
