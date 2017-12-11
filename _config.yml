@@ -10,7 +10,7 @@ permalink:        pretty
 # Setup
 title:            Solar@Rice
 name:             Solar@Rice
-description:      'The <b>Solar Physics Research Group</b> at <b>Rice University</b> uses computational modeling and observational tools to explore a variety of topics in solar and space plasma physics. Our current <a href="/Research.html">research projects</a> range from forward modeling of nanoflare-heated solar active regions to magnetic interactions between stars and planets. We are housed within the Department of Physics and Astronomy and located primarily in <a href="http://www.rice.edu/maps/Rice-University-Color-Campus-Map.pdf">Herman Brown Hall for Mathematical Sciences</a>.'
+description:      'The **Solar Physics Research Group** at **Rice University** uses computational modeling and observational tools to explore a variety of topics in solar and space plasma physics. Our current [research projects](/Research.html) range from forward modeling of nanoflare-heated solar active regions to magnetic interactions between stars and planets. We are housed within the Department of Physics and Astronomy and located primarily in [Herman Brown Hall for Mathematical Sciences](http://www.rice.edu/maps/Rice-University-Color-Campus-Map.pdf).'
 url:              http://solar.rice.edu
 baseurl:          /
 
@@ -19,12 +19,6 @@ author:
   email:          'will.t.barnes@rice.edu'
 
 include: ['_pages','images']
-
-# Gems
-gems:
-  - jekyll-paginate
-  - jekyll-gist
-  - pygments.rb
 
 # Collections
 collections:
