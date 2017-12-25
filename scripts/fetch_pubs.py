@@ -9,7 +9,7 @@ import yaml
 import ads
 
 PROPERTIES = ['author', 'year', 'pub', 'bibcode', 'title']
-OTHER_PROPERTIES = ['citation', 'pubdate', 'property']
+OTHER_PROPERTIES = ['citation', 'pubdate', 'property','doctype']
 AFF = 'Rice'
 
 
@@ -46,8 +46,9 @@ def accept_publication(pub):
     """
     Reject some publications. Add any conditions here.
     """
-    if 'NOT REFEREED' in pub.property:
+    if pub.doctype is None or pub.doctype != 'article':
         return False
+    # FIXME: this is a hack to reject weird papers with many authors that should not be in our list
     if len(pub.author) > 10:
         return False
     return True
