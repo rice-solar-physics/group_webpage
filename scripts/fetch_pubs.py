@@ -17,7 +17,7 @@ ALLOWED_JOURNALS = ['Astronomy and Astrophysics', 'Astronomy & Astrophysics',
                     'The Astrophysical Journal Letters', 'Space Science Reviews', 'Nature']
 ALLOWED_JOURNALS = [aj.strip().lower() for aj in ALLOWED_JOURNALS]
 EARLIEST_YEAR = 1980
-MAX_ROWS = 300 # when testing this script, it might be better set this a bit lower (e.g. 50)
+MAX_ROWS = 300  # when testing this script, it might be better set this a bit lower (e.g. 50)
 MAX_PAGES = 5
 
 
