@@ -8,9 +8,17 @@ import datetime
 import yaml
 import ads
 
-PROPERTIES = ['author', 'year', 'pub', 'bibcode', 'title']
-OTHER_PROPERTIES = ['citation', 'pubdate', 'property','doctype']
-AFF = 'Rice'
+PROPERTIES = ['author', 'year', 'pub', 'bibcode', 'title', 'bibstem']
+OTHER_PROPERTIES = ['citation', 'pubdate', 'property', 'doctype']
+ALLOWED_JOURNALS = ['Astronomy and Astrophysics', 'Astronomy & Astrophysics',
+                    'The Astrophysical Journal', 'Solar Physics',
+                    'Philosophical Transactions of the Royal Society of London Series A',
+                    'Physics of Plasmas', 'The Astrophysical Journal Supplement Series',
+                    'The Astrophysical Journal Letters', 'Space Science Reviews', 'Nature']
+ALLOWED_JOURNALS = [aj.strip().lower() for aj in ALLOWED_JOURNALS]
+EARLIEST_YEAR = 1980
+MAX_ROWS = 300 # when testing this script, it might be better set this a bit lower (e.g. 50)
+MAX_PAGES = 5
 
 
 def get_people(people_list):
@@ -28,9 +36,10 @@ def query_ads(people):
     """
     all_pubs = []
     for p in people:
-        query = list(ads.SearchQuery(author=p, aff=AFF, fl=PROPERTIES+OTHER_PROPERTIES))
+        query = list(ads.SearchQuery(author=p, fl=PROPERTIES+OTHER_PROPERTIES, rows=MAX_ROWS,
+                                     max_pages=MAX_PAGES))
         for q in query:
-            if not accept_publication(q):
+            if not accept_publication(q, people):
                 continue
             tmp = {p: q.__dict__[p] for p in PROPERTIES}
             tmp['year'] = int(tmp['year'])
@@ -42,14 +51,20 @@ def query_ads(people):
     return all_pubs
 
 
-def accept_publication(pub):
+def accept_publication(pub, people):
     """
     Reject some publications. Add any conditions here.
     """
+    if not any([a in people for a in pub.author]):
+        return False
+    if int(pub.year) < EARLIEST_YEAR:
+        return False
     if pub.doctype is None or pub.doctype != 'article':
         return False
     # FIXME: this is a hack to reject weird papers with many authors that should not be in our list
     if len(pub.author) > 10:
+        return False
+    if pub.pub.strip().lower() not in ALLOWED_JOURNALS:
         return False
     return True
 
@@ -88,7 +103,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     
     if os.path.exists(args.ads_key):
-        with open(args.ads_key,'r') as f:
+        with open(args.ads_key, 'r') as f:
             args.ads_key = f.read()
     ads.config.token = args.ads_key
     
