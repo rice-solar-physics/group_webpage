@@ -100,8 +100,10 @@
   year: "2015"
 - first_name: Lily
   last_name: Han
-  role: ugrad
+  role: alum
   image: "images/han_bio.png"
+  degree: "BS"
+  year: "2018"
 - first_name: Ruochun
   last_name: Zhang
   role: alum
@@ -113,5 +115,6 @@
   role: grad
 - first_name: Brandon
   last_name: Wang
-  role: hs_intern
+  role: alum
+  position: High School Intern
   image: "images/wang_bio.png"
