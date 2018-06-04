@@ -101,20 +101,18 @@
 - first_name: Lily
   last_name: Han
   role: alum
-  image: "images/han_bio.png"
   degree: "BS"
   year: "2018"
 - first_name: Ruochun
   last_name: Zhang
   role: alum
-  image: "images/zhang_bio.png"
   degree: "BS"
   year: "2017"
 - first_name: Revati
   last_name: Mandage
   role: grad
+  image: "images/mandage_bio.png"
 - first_name: Brandon
   last_name: Wang
   role: alum
   position: High School Intern
-  image: "images/wang_bio.png"
