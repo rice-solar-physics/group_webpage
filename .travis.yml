@@ -14,12 +14,9 @@ install:
 - bundle install
 - sudo pip install ads
 - sudo pip install PyYaml
-before_script:
-- 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then python scripts/fetch_pubs.py -k ${ADS_KEY} -f _data/publications.yml -p _data/people.yml; fi'
-- 'if [ "$TRAVIS_PULL_REQUEST" = "true" ]; then touch _data/publications.yml; fi'
 script:
-- bundle exec jekyll build
-- 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then sshpass -p ${RU_PASS} rsync -a --delete _site/ ${RU_USER}@wtb2.rice.edu:${MOUNT_DIR}; fi'
+- 'if [ "$TRAVIS_PULL_REQUEST" = "true" ]; then make build_pr; fi'
+- 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then make deploy; fi'
 env:
   global:
   - MOUNT_DIR="/mnt/web/solar_dot_rice_dot_edu"
