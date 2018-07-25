@@ -1,0 +1,5 @@
+[build]
+command = "make netlify"
+
+[context.deploy_preview]
+publish = "_site/"

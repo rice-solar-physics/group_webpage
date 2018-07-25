@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+gem 'jekyll'
+gem 'bundler'
 gem 'github-pages'
 gem 'redcarpet'
 gem 'jekyll-paginate'
