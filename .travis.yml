@@ -15,8 +15,8 @@ install:
 - sudo pip install ads
 - sudo pip install PyYaml
 script:
-- 'if [ "$TRAVIS_PULL_REQUEST" = "true" ]; make build_pr; fi'
-- 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; make deploy; fi'
+- 'if [ "$TRAVIS_PULL_REQUEST" = "true" ]; then make build_pr; fi'
+- 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then make deploy; fi'
 env:
   global:
   - MOUNT_DIR="/mnt/web/solar_dot_rice_dot_edu"
