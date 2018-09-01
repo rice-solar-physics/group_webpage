@@ -5,7 +5,7 @@
   pub_name:
     - "Alexander, D."
     - "Alexander, David"
-  webpage: "http://report.rice.edu/sir/faculty.detail?p=3A13D9FC465BDF33"
+  webpage: "http://fis-archive.rice.edu/faculty0f92.html"
 - first_name: "Stephen"
   last_name: "Bradshaw"
   role: faculty
@@ -15,10 +15,13 @@
     - "Bradshaw, S."
     - "Bradshaw, Stephen"
     - "Bradshaw, Stephen J."
-  webpage: "http://report.rice.edu/sir/faculty.detail?p=0EC4BA03C8DC0DCB3AB472F0CD2BAB22"
+  webpage: "http://fis-archive.rice.edu/facultya5bf.html"
 - first_name: "Antoun"
   last_name: "Daou"
-  role: ressci
+  role: alum
+  position: "Research Scientist"
+  degree: "PhD"
+  year: "2008"
   image: "images/daou_bio.png"
   pub_name:
     - "Daou, Antoun G."
