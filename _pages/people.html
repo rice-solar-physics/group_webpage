@@ -52,8 +52,9 @@ notitle: true
       <h5>{{ person.first_name }} {{ person.last_name }}
       <span class="lead text-muted">
         {%- if person.position != null -%}{{ person.position }}{%- endif -%}
-        {%- if person.position and person.degree -%}, {%- endif %}
-        {% if person.degree != null and person.year != null -%}{{ person.degree }} ({{ person.year }}){%- endif -%}
+        {%- if person.position and person.degree -%}, {% endif %}
+        {%- if person.degree != null and person.year != null -%}{{ person.degree }} ({{ person.year }}){%- endif -%}
+        {%- if person.current_position != null and person.current_institution != null -%}, now {{person.current_position}} at {{person.current_institution}}{%- endif -%}
       </span>
       </h5>
     </li>
