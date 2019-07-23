@@ -30,14 +30,22 @@
 - first_name: "Shah"
   last_name: "Bahauddin"
   image: "images/bahauddin_bio.png"
-  role: grad
+  role: alum
+  current_position: "research faculty"
+  current_institution: "CU Boulder"
+  degree: "PhD"
+  year: "2019"
 - first_name: "Will"
   last_name: "Barnes"
   image: "images/barnes_bio.png"
-  role: grad
+  role: alum
   pub_name:
     - "Barnes, W. T."
   webpage: "http://wtbarnes.github.io/"
+  current_position: "postdoc"
+  current_institution: "LMSAL"
+  degree: "PhD"
+  year: "2019"
 - first_name: "Anthony"
   last_name: "Sciola"
   role: grad
@@ -51,8 +59,8 @@
   degree: "MS"
   year: "2015"
   thesis: "The Source and Time Variability of the Slow Solar Wind"
-  current_position: "Research Scientist"
-  institution: "AFRL"
+  # current_position: "Research Scientist"
+  # institution: "AFRL"
   location: "Albuquerque, NM"
 - first_name: "Jeffrey"
   last_name: "Reep"
@@ -60,14 +68,16 @@
   degree: "PhD"
   year: "2014"
   thesis: "Solar Flare Spectral Modeling"
-  current_position: "Postdoctoral Researcher"
-  institution: "NRL"
+  current_position: "astrophysicist"
+  current_institution: "NRL"
   location: "Washington, DC"
 - first_name: "Chunming"
   last_name: "Zhu"
   role: alum
   degree: "PhD"
   year: "2014"
+  current_position: "research scientist"
+  current_institution: "Montana State University"
 - first_name: "Anne"
   last_name: "Sandman"
   role: alum
@@ -119,3 +129,5 @@
   last_name: Wang
   role: alum
   position: High School Intern
+  current_position: undergraduate
+  current_institution: Duke University
