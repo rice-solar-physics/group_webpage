@@ -17,7 +17,7 @@ notitle: true
       <div class="card-footer">
         {% for people in res.people %}
         {% for subpeople in site.data.people %}
-        {% if people == subpeople.last_name and subpeople.image != null%}
+        {% if people == subpeople.last_name and subpeople.image != null and subpeople.role != "alum" %}
         <img class="card-img-top rounded-circle pull-right" src="{{ site.baseurl }}{{ subpeople.image }}" style="width:35px;margin-right:5px"/>
         {% endif %}
         {% endfor %}
