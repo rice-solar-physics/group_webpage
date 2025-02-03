@@ -141,6 +141,7 @@
 # UNDERGRADUATE RESEARCHERS
 - first_name: "Ava"
   last_name: "Thienel"
+  role: ugrad
   position: Undergraduate Researcher
 - first_name: "Lily"
   last_name: "Han"
