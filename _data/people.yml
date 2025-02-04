@@ -1,3 +1,4 @@
+# FACULTY
 - first_name: "David"
   last_name: "Alexander"
   role: faculty
@@ -16,62 +17,73 @@
     - "Bradshaw, Stephen"
     - "Bradshaw, Stephen J."
   webpage: "http://fis-archive.rice.edu/facultya5bf.html"
-- first_name: "Antoun"
-  last_name: "Daou"
-  role: alum
-  position: "Research Scientist"
-  degree: "PhD"
-  year: "2008"
-  image: "images/daou_bio.png"
+# GRADUATE STUDENTS
+- first_name: "Syzpko"
+  last_name: "Gregory"
   pub_name:
-    - "Daou, Antoun G."
-    - "Daou, Antoun Georges"
-  webpage: "http://www.antoundaou.com/"
+    - "Syzpko, G. M."
+    - "Syzpko, Gregory M."
+  role: grad
+- first_name: Revati
+  last_name: Mandage
+  role: alum
+  image: "images/mandage_bio.png"
+  pub_name:
+    - "Mandage, R. S."
+    - "Mandage, Revati S."
+  degree: "PhD"
+  year: "2021"
 - first_name: "Shah"
   last_name: "Bahauddin"
-  image: "images/bahauddin_bio.png"
   role: alum
-  current_position: "research faculty"
-  current_institution: "CU Boulder"
+  image: "images/bahauddin_bio.png"
+  pub_name:
+    - "Bahauddin, S."
+    - "Bahauddin, S. M."
+    - "Bahauddin, Shah M."
   degree: "PhD"
   year: "2019"
+  current_position: "Research Faculty"
+  current_institution: "CU Boulder"
 - first_name: "Will"
   last_name: "Barnes"
-  image: "images/barnes_bio.png"
   role: alum
+  image: "images/barnes_bio.png"
   pub_name:
     - "Barnes, W. T."
     - "Barnes, Will T."
-  webpage: "http://wtbarnes.github.io/"
-  current_position: "postdoc"
-  current_institution: "LMSAL"
   degree: "PhD"
   year: "2019"
+  webpage: "http://wtbarnes.github.io/"
+  current_position: "Postdoc"
+  current_institution: "NASA/GSFC"
 - first_name: "Anthony"
   last_name: "Sciola"
-  role: grad
+  role: alum
+  degree: "PhD"
+  year: "2021"
+  current_position: "Postdoc"
+  current_institution: "JHU/APL"
 - first_name: "Alison"
   last_name: "Farrish"
-  role: grad
+  role: alum
   image: "images/farish_bio.png"
+  degree: "PhD"
+  year: "2021"
+  current_position: "Postdoc"
+  current_institution: "NASA/GSFC"
 - first_name: "Brandon"
   last_name: "Mueller"
   role: alum
   degree: "MS"
   year: "2015"
-  thesis: "The Source and Time Variability of the Slow Solar Wind"
-  # current_position: "Research Scientist"
-  # institution: "AFRL"
-  location: "Albuquerque, NM"
 - first_name: "Jeffrey"
   last_name: "Reep"
   role: alum
   degree: "PhD"
   year: "2014"
-  thesis: "Solar Flare Spectral Modeling"
-  current_position: "astrophysicist"
-  current_institution: "NRL"
-  location: "Washington, DC"
+  current_position: "Assistant Astronomer"
+  current_institution: "University of Hawaii"
 - first_name: "Chunming"
   last_name: "Zhu"
   role: alum
@@ -99,36 +111,54 @@
   role: alum
   degree: "PhD"
   year: "2008"
+# RESEARCH ASSISTANTS / ASSOCIATES AND POSTDOCS
+- first_name: "Grant"
+  last_name: "Gorman"
+  role: alum
+  position: "Postdoc"
+  current_position: "Staff Scientist"
+  current_institution: "Sandia National Laboratory"
+- first_name: "Antoun"
+  last_name: "Daou"
+  role: alum
+  image: "images/daou_bio.png"
+  pub_name:
+    - "Daou, Antoun G."
+    - "Daou, Antoun Georges"
+  position: "Research Scientist"
+  degree: "PhD"
+  year: "2008"
 - first_name: "Holly"
   last_name: "Gilbert"
   role: alum
   position: "Research Scientist"
+  current_position: "Director"
+  current_institution: "High Altitude Observatory"
 - first_name: "Lirong"
   last_name: "Tian"
   role: alum
   position: "Research Scientist"
+# UNDERGRADUATE RESEARCHERS
+- first_name: "Ava"
+  last_name: "Thienel"
+  role: ugrad
+  position: Undergraduate Researcher
+- first_name: "Lily"
+  last_name: "Han"
+  role: alum
+  degree: "BS"
+  year: "2018"
 - first_name: "Shane"
   last_name: "Alpert"
   role: alum
   degree: "BS"
   year: "2015"
-- first_name: Lily
-  last_name: Han
-  role: alum
-  degree: "BS"
-  year: "2018"
 - first_name: Ruochun
   last_name: Zhang
   role: alum
   degree: "BS"
   year: "2017"
-- first_name: Revati
-  last_name: Mandage
-  role: grad
-  image: "images/mandage_bio.png"
 - first_name: Brandon
   last_name: Wang
   role: alum
   position: High School Intern
-  current_position: undergraduate
-  current_institution: Duke University
